@@ -76,3 +76,6 @@ Versionamento de Cógido é quando organizamos as **versões** do nosso código,
 
 ## Como era antes do Git?
 Na aula, o Deschamps fala sobre como era antes da criação do Git, e menciona como antes os versionadores eram **centralizados**. Isso significa que existia uma cópia principal do repositório e as pessoas reservavam o acesso delas a essa cópia, em um sistema de **Checkout** e **Check-in**. Dessa forma, o código ficava inacessível a alterações para outros enquanto a pessoa não realizasse o check-in da sua cópia modificada, ou seja, era uma maneira de "alugar" os arquivos do projeto.
+
+Novamente, enquanto eu assistia essa vídeo-aula, lembre-me de que o [Fabio Akita](https://www.youtube.com/@Akitando/) já havia postado um vídeo falando sobre Git. Segue o link para o vídeo abaixo:
+- [Entendendo GIT | (não é um tutorial!)](https://youtu.be/6Czd1Yetaac)
