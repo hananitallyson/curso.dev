@@ -18,7 +18,7 @@ Assim como ele, eu vejo essa sendo a melhor forma de absorver o conteúdo do cur
 Já no segundo dia, o Filipe Deschamps explica de uma maneira simples de entender o que é GitHub e qual a diferença entre GitHub e Git, comparando-o com o YouTube. Como foi dito na aula:
 > [...] o Github é um YouTube, só que ele não hospeda vídeos, ele hospeda repositórios git. [...] Você pode fazer o upload desse repositório lá para o Github, com isso outras pessoas podem acessar e baixar esse repositório, podem deixar comentários, ou até coisas mais avançadas como enviar alterações de código...
 
-Além dessa explicação maravilhosa, o Deschamps também explicar o que é um repositório e como criar um na plataforma do GitHub, e aproveitando o gancho, explica também uma estratégia de SEO para que o seu repositório seja encontrado com mais facilidade através das ferramentas de busca.
+Além dessa explicação maravilhosa, o Deschamps também explica o que é um repositório e como criar um na plataforma do GitHub, e aproveitando o gancho, fala sobre uma estratégia de SEO para que o seu repositório seja encontrado com mais facilidade através das ferramentas de busca.
 
 A última aula tratou sobre ambiente de desenvolvimento, e entramos no entendimento sobre os conceitos de **Função** e **Estética**. A ideia é que todas as ferramentas (linguagens, sistema operacional, IDE, etc.) possuem dois lados, a parte de sua **função** que está atrelada ao que ela pode lhe oferecer de forma produtiva, e a **estética** que seriam as coisas que lhe agradam ou não que estão atreladas a como a ferramenta se apresenta.
 
