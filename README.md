@@ -22,6 +22,12 @@ Além dessa explicação maravilhosa, o Deschamps também explicar o que é um r
 
 A última aula tratou sobre ambiente de desenvolvimento, e entramos no entendimento sobre os conceitos de **Função** e **Estética**. A ideia é que todas as ferramentas (linguagens, sistema operacional, IDE, etc.) possuem dois lados, a parte de sua **função** que está atrelada ao que ela pode lhe oferecer de forma produtiva, e a **estética** que seriam as coisas que lhe agradam ou não que estão atreladas a como a ferramenta se apresenta.
 
+Eu não pude deixar de me lembrar dos vídeos do [Fabio Akita](https://www.youtube.com/@Akitando/), onde ele fala sobre **"Sua Linguagem NÃO É Especial!"** Abaixo deixarei os links para os vídeos em que ele aborda essa assunto.
+- [Sua Linguagem NÃO É Especial! (Parte 1)](https://youtu.be/p9-WuJbVHHc)
+- [Sua Linguagem NÃO É Especial! (Parte 2)](https://youtu.be/XcTTajFENHI)
+- [Sua Linguagem É Especial? Parte 1 em 2001](https://youtu.be/NwAvovzHRDU)
+- [Sua Linguagem É Especial? Parte 2 em 2001](https://youtu.be/O4CWVQLbi48)
+
 # Dia 3
 O terceiro dia já começa com uma frase do Carl Sagan:
 > Se você quiser fazer uma torta de maçã a partir do zero, você deve primeiro inventar o Universo.
