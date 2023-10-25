@@ -64,3 +64,5 @@ No fim do dia, o Filipe manda um desafio: colocar o projeto em um link público 
 Esse desafio, eu resolvi fazer com o meu melhor amigo, então deixei uma mensagem para ele. Depois, eu precisava encarar a ideia principal do desafio, colocar o projeto no ar!
 
 Para isso, eu usei o Vercel. Eu cheguei nessa conclusão, pois em aulas anteriores, o próprio Deschamps já havia mencionado que era possível hospedar de forma gratuita no Vercel, sendo assim, fiz o **commit** através do `git` para o repositório no GitHub. De lá, o Vercel fez o resto, configurei poucas coisas e pronto, o site estava no ar: [https://hananitallyson-clone-tabnews.vercel.app/](https://hananitallyson-clone-tabnews.vercel.app/).
+
+É interessante mencionar que durante o deploy, o Vercel indicou que o arquivo .next não fosse enviado dentro do repositório. No dia seguinte, isso vai ser importante.
