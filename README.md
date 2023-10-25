@@ -73,3 +73,6 @@ Agora o papo é sobre [Git](https://git-scm.com/). Como eu acabei de dizer, o di
 Bem, começando pelo Git, ele é uma ferramenta para **Versionamento de Cógido** que funciona de forma **distribuída**, ao invés de **centralizada** como outros versionadores.
 
 Versionamento de Cógido é quando organizamos as **versões** do nosso código, para ficar mais fácil de acessar informações de Como?, Quando?, E quais são as modificações?. E a melhor forma de fazer isso, atualmente, é através do Git.
+
+## Como era antes do Git?
+Na aula, o Deschamps fala sobre como era antes da criação do Git, e menciona como antes os versionadores eram **centralizados**. Isso significa que existia uma cópia principal do repositório e as pessoas reservavam o acesso delas a essa cópia, em um sistema de **Checkout** e **Check-in**. Dessa forma, o código ficava inacessível a alterações para outros enquanto a pessoa não realizasse o check-in da sua cópia modificada, ou seja, era uma maneira de "alugar" os arquivos do projeto.
