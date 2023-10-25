@@ -20,15 +20,7 @@ Já no segundo dia, o Filipe Deschamps explica de uma maneira simples de entende
 
 Além dessa explicação maravilhosa, o Deschamps também explicar o que é um repositório e como criar um na plataforma do GitHub, e aproveitando o gancho, explica também uma estratégia de SEO para que o seu repositório seja encontrado com mais facilidade através das ferramentas de busca.
 
-A última aula tratou sobre ambiente de desenvolvimento, e entramos no entendimento sobre os conceitos de **Função** e **Estética**. A ideia é que todas as ferramentas (linguagens, sistema operacional, IDE, etc.) possuem dois lados, a parte de sua **função** que está atrelada ao que ela pode lhe oferecer de forma produtiva, e a **estética** que seriam as coisas que lhe agradam ou não que estão atreladas a como a ferramenta se apresenta. Abaixo está o comentário que fiz naquela vídeo-aula:
-
-> Inicialmente, eu utilizava Windows para programar e na época, aquilo já bastava, no entanto, minha curiosidade me levou a querer aprender mais sobre Linux, quando comecei a ter a materia de Redes no Instituto Federal, e usei pela primeira vez a distro Debian para configurar um servidor.
-> 
-> Naquele instante, eu tive uma grande vontade de migrar para o Linux, não precisava ser o Debian necessariamente, por isso, resolvi instalar o Ubuntu, pois é de longe o mais popular até hoje. No entanto, eu não curtia muito o visual do Ubuntu, e quando fui pesquisar mais sobre personalização, descobri os DE (Desktop Environment). A partir desse momento, resolvi encontrar um DE que me agradace, e cheguei até o KDE (K Desktop Environment), que combina bastante comigo já que curto K-POP (Perdão a piada sem graça, mas eu tinha que fazer...).
-> 
-> Dessa forma, passei um bom tempo usando o Kubuntu (KDE + Ubuntu), mas com o passar do tempo, minha curiosidade aumentava, e comecei desejar uma distro ainda mais personalizável, o que através de pesquisas, levou-me até o famigerado Arch Linux. Eu digo "famigerado", pois quem é da comunidade Linux, sabe como alguns dos usuários de Arch se acham mais "inteligentes" ou "superiores" aos demais, uma vez que essa distro possui a filosofia de User Centrality, onde o usuário é encarregado de configurar do zero todo o seu sistema, enquanto a distro só oferece as ferramentas básicas para isso.
-> 
-> Para mim, usar Arch está mais para um desafio, onde eu devo superar as dificuldade que surgem por causa dessa filosofia, me obrigando a buscar e aprender mais!
+A última aula tratou sobre ambiente de desenvolvimento, e entramos no entendimento sobre os conceitos de **Função** e **Estética**. A ideia é que todas as ferramentas (linguagens, sistema operacional, IDE, etc.) possuem dois lados, a parte de sua **função** que está atrelada ao que ela pode lhe oferecer de forma produtiva, e a **estética** que seriam as coisas que lhe agradam ou não que estão atreladas a como a ferramenta se apresenta.
 
 # Dia 3
 O terceiro dia já começa com uma frase do Carl Sagan:
@@ -46,3 +38,6 @@ asdf global <nome> <versão>
 ```shell
 asdf local <nome> <versão>
 ```
+
+## Analysis Paralysis
+Na última vídeo-aula do dia 3, o Deschamps traz o conhecimento sobre [Analysis Paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis), que de acordo com a Wiki representa o estado de ficar paralisado por pensar demais. Ou seja, é o fenomeno que ocorre com muitos de nós quando pensamos demais sobre qual linguagem usar, ou qual framework devemos utilizar, e acabamos estagnados por causa da incerteza.
