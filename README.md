@@ -38,8 +38,8 @@ A partir dessa frase, começamos a tratar sobre como hoje **nada mais é criado 
 
 Além dessa reflexão, também há a parte técnica das aulas, onde deixamos o nosso projeto `clone-tabnews` nas mesmas versões de NodeJS, Next.JS, React e React-dom. Inclusive, eu comento na vídeo aula sobre NodeJS e NVM, o uso de outro gerenciador de versões para linguagens: o **asdf**.
 
-## Gerenciador de Versão - [asdf](https://asdf-vm.com/guide/getting-started.html)
-Fica a recomendação do asdf, o gerenciador de versão para diferentes linguagens de programação, em que você adiciona plugins ao gerenciador, e através disso o asdf instala as versões. Além disso, é possível definir uma versão global e local para projetos naquela linguagem através dos comandos:
+## Gerenciador de Versão
+Fica a recomendação do [asdf](https://asdf-vm.com/guide/getting-started.html), o gerenciador de versão para diferentes linguagens de programação, em que você adiciona plugins ao gerenciador, e através disso o asdf instala as versões. Além disso, é possível definir uma versão global e local para projetos naquela linguagem através dos comandos:
 ```shell
 asdf global <nome> <versão>
 ```
