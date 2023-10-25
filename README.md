@@ -33,6 +33,7 @@ A última aula tratou sobre ambiente de desenvolvimento, e entramos no entendime
 # Dia 3
 O terceiro dia já começa com uma frase do Carl Sagan:
 > Se você quiser fazer uma torta de maçã a partir do zero, você deve primeiro inventar o Universo.
+
 A partir dessa frase, começamos a tratar sobre como hoje **nada mais é criado do zero**, principalmente, no ramo da tecnologia. Nós programamos em uma linguagem, que provavelmente, não foi você que a criou, além disso, usamo frameworks e outros módulos que, de outra vez, provavelmente não foi criado por você. Criamos em cima de coisas que já foram criadas, e assim podemos chegar em novos patamares.
 
 Além dessa reflexão, também há a parte técnica das aulas, onde deixamos o nosso projeto `clone-tabnews` nas mesmas versões de NodeJS, Next.JS, React e React-dom. Inclusive, eu comento na vídeo aula sobre NodeJS e NVM, o uso de outro gerenciador de versões para linguagens: o **asdf**.
