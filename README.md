@@ -61,7 +61,7 @@ O UDP por sua vez, é mais rápido e por causa disso, é geralmente utilizado po
 ## Desafio
 No fim do dia, o Filipe manda um desafio: colocar o projeto em um link público e enviar esse link para alguém, e então ver qual é a reação dela para a mensagem deixada na página.
 
-Esse desafio, eu resolvi fazer com o meu melhor amigo, então deixei uma mensagem para ele. Depois, eu precisava encarar a ideia principal do desafio, colocar o projeto no ar!
+Eu resolvi fazer esse desafio mandando o link para o meu melhor amigo, então a mensagem que deixei na página era para ele. Depois, eu precisava encarar a ideia principal do desafio, colocar o projeto no ar!
 
 Para isso, eu usei o Vercel. Eu cheguei nessa conclusão, pois em aulas anteriores, o próprio Deschamps já havia mencionado que era possível hospedar de forma gratuita no Vercel, sendo assim, fiz o **commit** através do `git` para o repositório no GitHub. De lá, o Vercel fez o resto, configurei poucas coisas e pronto, o site estava no ar: [https://hananitallyson-clone-tabnews.vercel.app/](https://hananitallyson-clone-tabnews.vercel.app/).
 
