@@ -108,11 +108,23 @@ O resultado desse comando deve ser o registro de seus **commits** com informaç�
 
 Agora, o que é commit? Bem, commit é o termo técnico usado para se referir ao que na explicação sobre blob eu usei a palavra "versão". Um dos significados dessa palavra é "compromisso", e também vem do inglês. A ideia é que um commit seria um compromisso do autor em relação aquelas modificações de seu código dentro do projeto. Então, quando realizamos a operação de commit, estamos enviando as últimas alterações do código fonte para o seu respectivo repositório.
 
-Antes que um commit seja realizado é importante que as modificações tenham sido adicionadas ao estágio (**stage**). Usamos o `add` para isso.
+Antes que um commit seja realizado é importante que as modificações tenham sido adicionadas. Usamos o `add` para isso.
 ```shell
 git add .
 ```
-O ponto representa que estamos adicionando todos os arquivos novos, modificados e removidos, dentro do estágio. Então podemos seguir para o commit através do seguinte comando:
+O ponto representa que estamos adicionando todos os arquivos. Então podemos seguir para o commit através do seguinte comando:
 ```shell
 git commit
+```
+
+## Stage e Amend
+Na terceira e quarta aula da pista lenta, aprendemos sobre os **stages** em que um arquivo passa dentro do git. "Stage" vem do inglês e significa "Estágio", e dentro do git existe 3 estágios para os arquivos: **modified**, **staged** e **committed**. Esses 3 estágios representam, respectivamente, os estágios de modificado, arranjado (ou planejado) e cometido (ou cumprido). Os estágios mencionados funcionam como uma "escada", onde o primeiro degrau é o modified, o seguinte é staged, e por fim o committed.
+
+No entanto, antes de um arquivo se tornar modified, ele na realidade estará em um estágio "não catalogado" podemos assim dizer... O termo correto para esse pseudo-estágio é **untracked**, ou seja, não rastreado.
+
+Uma boa analogia para entender todo esse processo dos 3 esátgios, é imaginar que o nosso projeto é um show, com os bastidores e o palco. Quando modificamos um arquivo, esse está nos bastidores do show. Ao adicionarmos ele através do `git add` estamos colocando o arquivo no palco, que em inglês, o termo para palco é "Stage". Então, quando a "apresentação" termina, o show foi concluído com sucesso, sendo assim ele foi cumprido, ou seja, committed.
+
+Para compararmos o que está fora e dentro do git, usamos o comando:
+```shell
+git status
 ```
