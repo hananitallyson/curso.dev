@@ -107,3 +107,12 @@ git log
 O resultado desse comando deve ser o registro de seus **commits** com informações sobre autor e data, dentre outras coisas.
 
 Agora, o que é commit? Bem, commit é o termo técnico usado para se referir ao que na explicação sobre blob eu usei a palavra "versão". Um dos significados dessa palavra é "compromisso", e também vem do inglês. A ideia é que um commit seria um compromisso do autor em relação aquelas modificações de seu código dentro do projeto. Então, quando realizamos a operação de commit, estamos enviando as últimas alterações do código fonte para o seu respectivo repositório.
+
+Antes que um commit seja realizado é importante que as modificações tenham sido adicionadas ao estágio (**stage**). Usamos o `add` para isso.
+```shell
+git add .
+```
+O ponto representa que estamos adicionando todos os arquivos novos, modificados e removidos, dentro do estágio. Então podemos seguir para o commit através do seguinte comando:
+```shell
+git commit
+```
