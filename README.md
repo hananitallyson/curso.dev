@@ -97,7 +97,7 @@ BLOB é um acrônimo para **Binary Large OBject** ou também **Basic Large OBjec
 
 No git, o blob é a união entre o conteúdo de um arquivo e seu identificador, sendo armazenado no diretório oculto `.git`. A partir disso, o git guarda as versões dos arquivos, e quando uma nova versão é inserida, ele cria um novo blob somente para os arquivos modificados. Aqueles que não sofreram alteração são apontados para sua versão anterior, já que permanecem iguais. Dessa forma, um projeto com dois arquivos vão possuir dois blobs, um para cada. Se alterarmos o primeiro e deixamos o segundo igual nessa nova versão, o git vai criar um novo blob para o primeiro arquivo e vai apontar o blob do segundo arquivo da versão anterior dentro dessa nova versão.
 
-Quando eu menciono essas versões, eu estou me referindo a um **commit**, isso vai ficar mais claro na parte seguinte.
+Quando eu menciono "versão", eu estou me referindo a um **commit**, isso vai ficar mais claro na parte seguinte.
 
 ### Log e Commit
 "Log" significa "Registro" em inglês, e dentro do git, é a representação de todos os registros realizados no `.git`. Para acessar esse registro use o seguinte comando dentro de um diretório onde o git já tenha sido inicializado:
