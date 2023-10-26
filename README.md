@@ -95,7 +95,7 @@ Aqui estamos comparando o `arquivo1` com o `arquivo2`. O resultado disso será a
 ### BLOB
 BLOB é um acrônimo para **Binary Large OBject** ou também **Basic Large OBject**. Basicamente, blob é um conjunto de dados binários que são armazenados em uma única ententidade em um sistema de gerenciamento de bancos de dados.
 
-No git, o blob é a união entre o conteúdo de um arquivo e seu identificador, sendo armazenado no diretório oculto `.git`. A partir disso, o git guarda as versões dos arquivos, e quando uma nova versão é inserida, ele cria um novo blob somente para os arquivos modificados, aqueles que não sofreram alteração, são apontados para sua versão anterior, já que permanecem iguais. Dessa forma, um projeto com dois arquivos vão possuir dois blobs, um para cada. Se alterarmos o primeiro e deixamos o segundo igual nessa nova versão, o git vai criar um novo blob para o primeiro arquivo e vai apontar o blob do segundo arquivo da versão anterior dentro dessa nova versão.
+No git, o blob é a união entre o conteúdo de um arquivo e seu identificador, sendo armazenado no diretório oculto `.git`. A partir disso, o git guarda as versões dos arquivos, e quando uma nova versão é inserida, ele cria um novo blob somente para os arquivos modificados. Aqueles que não sofreram alteração são apontados para sua versão anterior, já que permanecem iguais. Dessa forma, um projeto com dois arquivos vão possuir dois blobs, um para cada. Se alterarmos o primeiro e deixamos o segundo igual nessa nova versão, o git vai criar um novo blob para o primeiro arquivo e vai apontar o blob do segundo arquivo da versão anterior dentro dessa nova versão.
 
 Quando eu menciono essas versões, eu estou me referindo a um **commit**, isso vai ficar mais claro na parte seguinte.
 
