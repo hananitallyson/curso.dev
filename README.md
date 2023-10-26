@@ -144,7 +144,7 @@ git commit --amend
 ```
 
 ### Imutabilidade
-Mas como eu mencionei no começo dessa parte, ainda existe efeitos colaterais na linha do tempo, e quando realizamos o amend, o identificador do commit é alterado. Esse identificador pode ser visto através do comando já apresentado `git log`, no entanto, para ver melhor só essas informações de cabeçalho, use a flag `--oneline` para mostrar cada commit em uma única linha no terminal.
+Mas como eu mencionei no começo dessa parte sobre amend, ainda existe efeitos colaterais na linha do tempo, e quando realizamos o amend, o identificador do commit é alterado. Esse identificador pode ser visto através do comando já apresentado `git log`, no entanto, para ver melhor só essas informações de cabeçalho, use a flag `--oneline` para mostrar cada commit em uma única linha no terminal.
 ```shell
 git log --oneline
 ```
