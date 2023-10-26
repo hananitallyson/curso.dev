@@ -65,7 +65,7 @@ Eu resolvi fazer esse desafio mandando o link para o meu melhor amigo, então a 
 
 Para isso, eu usei o Vercel. Eu cheguei nessa conclusão, pois em aulas anteriores, o próprio Deschamps já havia mencionado que era possível hospedar de forma gratuita no Vercel, sendo assim, fiz o **commit** através do `git` para o repositório no GitHub. De lá, o Vercel fez o resto, configurei poucas coisas e pronto, o site estava no ar: [https://hananitallyson-clone-tabnews.vercel.app/](https://hananitallyson-clone-tabnews.vercel.app/).
 
-É interessante mencionar que durante o deploy, o Vercel indicou que o arquivo `.next` não fosse enviado dentro do repositório. No dia seguinte, isso vai ser importante...
+É interessante mencionar que durante o deploy, o Vercel indicou que o arquivo `.next` não deveria ser enviado dentro do repositório. No dia seguinte, isso vai ser importante...
 
 # Dia 5
 Agora o papo é sobre [Git](https://git-scm.com/). Como eu acabei de dizer, o dia 5 foi focado em compreender mais sobre o **Git** e **Versionamento de Código**. Mas afinal, o que são essas coisas?
