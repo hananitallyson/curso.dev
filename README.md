@@ -3,6 +3,8 @@ Aqui, vou registrar minhas anotações relevantes ao [curso.dev](https://curso.d
 
 Outro repositório meu que possui uma finalidade semelhante é o [Hanani's Guide to Front-end](https://github.com/hananitallyson/guide-to-front-end), onde eu reúno links de sites, artigos e vídeos sobre assuntos relacionados ao desenvolvimento Front-end.
 
+Por fim, quero deixar claro que esse repositório não é a mesma coisa que o curso em si, então, se você gostou do que está aqui, tente dar uma chance ao [curso.dev](https://curso.dev/) se tiver condições.
+
 # Dia 1
 Dentro do curso, o dia 1 foi separado para dar boas-vindas aos alunos e para apresentar a organização do próprio curso. O curso.dev é dividido de uma maneira na qual os **alunos** são estimulados, e os **conteúdos** bem organizados. Todos os conteúdos dentro do curso são separados por dias, dessa forma, ao ver todas as vídeo-aulas e realizar os exercícios do dia, então aquele dia foi concluído. Como o próprio Deschamps menciona, esse ritmo que leva em consideração o dia é chamado de [Ritmo Circadiano](https://pt.wikipedia.org/wiki/Ritmo_circadiano).
 
