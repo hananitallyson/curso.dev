@@ -158,3 +158,13 @@ Lembra que no final do dia 4 eu disse que o Vercel havia indicado que o arquivo 
 Quando criamos um repositório git para nosso projeto, geralmente vai acabar existindo pastas e arquivos que nós não queremos que vá junto do projeto, seja por organização ou por segurança. Um exemplo disso, é o arquivo `.env` que deve ser ignorado pelo git por motivos de segurança, uma vez que esse arquivo pode conter informações sobre banco de dados, chaves de API ou configurações gerais da aplicação, que poderiam facilmente serem usadas em um ataque. Por causa disso, existe o arquivo de texto `.gitignore`, que serve basicamente para dizer ao git quais arquivos e pastas devem ser ignorados.
 
 Para fazer isso, basta criar o arquivo com o nome `.gitignore` e colocar o nome dos arquivos e pastas, faça o commit e pronto.
+
+# Dia 6
+Continuando essa saga com o git, nas aulas do dia 6, o Filipe fala mais sobre **repositório remoto** e os assuntos que cercam isso. 
+
+Para começarmos, a primeira vídeo-aula da pista lenta trata sobre **push**, que em inglês significa, literalmente, "Empurrar". Quando realizamos o commit no nosso projeto, aplicamos as alterações diretamente em uma nova versão que fica salva no repositório **local**, no entanto, muitas vezes queremos compartilhar nosso código, ou salvar ele em algum lugar fora nossa máquina. Para isso, precisamos mandar o nosso **repositório local** para um **repositório remoto**, a **origin**. O comando que usamos para enviar os arquivos ao repositório remoto é o seguinte:
+```shell
+git push
+```
+
+## Local e Origin
