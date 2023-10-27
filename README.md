@@ -6,12 +6,12 @@ Outro repositório meu que possui uma finalidade semelhante é o [Hanani's Guide
 Por fim, quero deixar claro que esse repositório não é a mesma coisa que o curso em si, então, se você gostou do que está aqui, tente dar uma chance ao [curso.dev](https://curso.dev/) se tiver condições.
 
 # Sumário
-1. [Dia 1](#dia-1)
-2. [Dia 2](#dia-2)
-3. [Dia 3](#dia-3)
-4. [Dia 4](#dia-4)
-5. [Dia 5](#dia-5)
-6. [Dia 6](#dia-6)
+1. [Apresentação do curso (Dia 1)](#apresentação-do-curso-dia-1)
+2. [Introdução (Dia 2)](#introdução-dia-2)
+3. [Começando com o repositório e Reflexões de bônus (Dia 3)](#começando-com-o-repositório-e-reflexões-de-bônus-dia-3)
+4. [Fundamentos: Protocolos (Dia 4)](#fundamentos-protocolos-dia-4)
+5. [Fundamentos: Git (Dia 5)](#fundamentos-protocolos-dia-4)
+6. [Git: Respositório Local e Remoto (Dia 6)](#git-respositório-local-e-remoto-dia-6)
 
 # Apresentação do curso (Dia 1)
 Dentro do curso, o dia 1 foi separado para dar boas-vindas aos alunos e para apresentar a organização do próprio curso. O curso.dev é dividido de uma maneira na qual os **alunos** são estimulados, e os **conteúdos** bem organizados. Todos os conteúdos dentro do curso são separados por dias, dessa forma, ao ver todas as vídeo-aulas e realizar os exercícios do dia, então aquele dia foi concluído. Como o próprio Deschamps menciona, esse ritmo que leva em consideração o dia é chamado de [Ritmo Circadiano](https://pt.wikipedia.org/wiki/Ritmo_circadiano).
