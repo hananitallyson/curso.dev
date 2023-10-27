@@ -13,7 +13,7 @@ Por fim, quero deixar claro que esse repositório não é a mesma coisa que o cu
 5. [Dia 5](#dia-5)
 6. [Dia 6](#dia-6)
 
-# Dia 1
+# Apresentação do curso (Dia 1)
 Dentro do curso, o dia 1 foi separado para dar boas-vindas aos alunos e para apresentar a organização do próprio curso. O curso.dev é dividido de uma maneira na qual os **alunos** são estimulados, e os **conteúdos** bem organizados. Todos os conteúdos dentro do curso são separados por dias, dessa forma, ao ver todas as vídeo-aulas e realizar os exercícios do dia, então aquele dia foi concluído. Como o próprio Deschamps menciona, esse ritmo que leva em consideração o dia é chamado de [Ritmo Circadiano](https://pt.wikipedia.org/wiki/Ritmo_circadiano).
 
 ## Pista Lenta e Pista Rápida
@@ -24,7 +24,7 @@ O aluno [André Cruz Mendes](https://github.com/andrecruzmendes) comentou no ví
 
 Assim como ele, eu vejo essa sendo a melhor forma de absorver o conteúdo do curso, além de ser bem útil quando estamos querendo apenas um resumo sobre o assunto, para fazer breves anotações ou para relembrar de certas coisas.
 
-# Dia 2
+# Introdução (Dia 2)
 Já no segundo dia, o Filipe Deschamps explica de uma maneira simples de entender o que é GitHub e qual a diferença entre GitHub e Git, comparando-o com o YouTube. Como foi dito na aula:
 > [...] o Github é um YouTube, só que ele não hospeda vídeos, ele hospeda repositórios git. [...] Você pode fazer o upload desse repositório lá para o Github, com isso outras pessoas podem acessar e baixar esse repositório, podem deixar comentários, ou até coisas mais avançadas como enviar alterações de código...
 
@@ -38,7 +38,7 @@ Eu não pude deixar de me lembrar dos vídeos do [Fabio Akita](https://www.youtu
 - [Sua Linguagem É Especial? Parte 1 em 2001](https://youtu.be/NwAvovzHRDU)
 - [Sua Linguagem É Especial? Parte 2 em 2001](https://youtu.be/O4CWVQLbi48)
 
-# Dia 3
+# Começando com o repositório e Reflexões de bônus (Dia 3)
 O terceiro dia já começa com uma frase do Carl Sagan:
 > Se você quiser fazer uma torta de maçã a partir do zero, você deve primeiro inventar o Universo.
 
@@ -58,7 +58,7 @@ asdf local <nome> <versão>
 ## Analysis Paralysis
 Na última vídeo-aula do dia 3, o Deschamps traz o conhecimento sobre [Analysis Paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis), que de acordo com a Wiki representa o estado de ficar paralisado por pensar demais. Ou seja, é o fenômeno que ocorre com muitos de nós quando pensamos demais sobre qual linguagem usar, ou qual framework devemos utilizar, e acabamos estagnados por causa da incerteza.
 
-# Dia 4
+# Fundamentos: Protocolos (Dia 4)
 A primeira vídeo-aula da pista lenta fala sobre [protocolos](https://pt.wikipedia.org/wiki/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)) e o que eles são. O exemplo citado na aula, foi o telefone sem fim, que de fato é uma boa analogia ao esquema de protocolos dentro da Web. Em resumo, protocolos são regras para comunicação que foi acordada entre duas ou mais partes, essas regras vão definir como enviar e receber informações.
 
 Além disso, colocamos também o servidor local para rodar, junto com nosso projeto `clone-tabnews`. Nesse processo, o Filipe fala sobre a organização de páginas do Next que é **File-Based Routing**, ou seja, **Roteamento Baseado em Arquivos**. E aproveitando o gancho, ele também fala como surgiu a ideia por trás das páginas Index, que comumente, é a página inicial da maioria dos sites.
@@ -77,7 +77,7 @@ Para isso, eu usei o Vercel. Eu cheguei nessa conclusão, pois em aulas anterior
 
 É interessante mencionar que durante o deploy, o Vercel indicou que o arquivo `.next` não deveria ser enviado dentro do repositório. No dia seguinte, isso vai ser importante...
 
-# Dia 5
+# Fundamentos: Git (Dia 5)
 Agora o papo é sobre [Git](https://git-scm.com/). Como eu acabei de dizer, o dia 5 foi focado em compreender mais sobre o **Git** e **Versionamento de Código**. Mas afinal, o que são essas coisas?
 
 Bem, começando pelo Git, ele é uma ferramenta para **Versionamento de Cógido** que funciona de forma **distribuída**, ao invés de **centralizada** como outros versionadores.
@@ -167,7 +167,7 @@ Quando criamos um repositório git para nosso projeto, geralmente vai acabar exi
 
 Para fazer isso, basta criar o arquivo com o nome `.gitignore` e colocar o nome dos arquivos e pastas, faça o commit e pronto.
 
-# Dia 6
+# Git: Respositório Local e Remoto (Dia 6)
 Continuando essa saga com o git, nas aulas do dia 6, o Filipe fala mais sobre **repositório remoto** e os assuntos que cercam isso. 
 
 Para começarmos, a primeira vídeo-aula da pista lenta trata sobre **push**, que em inglês significa, literalmente, "Empurrar". Quando realizamos o commit no nosso projeto, aplicamos as alterações diretamente em uma nova versão que fica salva no repositório **local**, no entanto, muitas vezes queremos compartilhar nosso código, ou salvar ele em algum lugar fora nossa máquina. Para isso, precisamos mandar o nosso **repositório local** para um **repositório remoto**, a **origin**. O comando que usamos para enviar os arquivos ao repositório remoto é o seguinte:
