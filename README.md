@@ -5,6 +5,14 @@ Outro repositório meu que possui uma finalidade semelhante é o [Hanani's Guide
 
 Por fim, quero deixar claro que esse repositório não é a mesma coisa que o curso em si, então, se você gostou do que está aqui, tente dar uma chance ao [curso.dev](https://curso.dev/) se tiver condições.
 
+# Sumário
+- [Dia 1](#dia-1)
+- [Dia 2](#dia-2)
+- [Dia 3](#dia-3)
+- [Dia 4](#dia-4)
+- [Dia 5](#dia-5)
+- [Dia 6](#dia-6)
+
 # Dia 1
 Dentro do curso, o dia 1 foi separado para dar boas-vindas aos alunos e para apresentar a organização do próprio curso. O curso.dev é dividido de uma maneira na qual os **alunos** são estimulados, e os **conteúdos** bem organizados. Todos os conteúdos dentro do curso são separados por dias, dessa forma, ao ver todas as vídeo-aulas e realizar os exercícios do dia, então aquele dia foi concluído. Como o próprio Deschamps menciona, esse ritmo que leva em consideração o dia é chamado de [Ritmo Circadiano](https://pt.wikipedia.org/wiki/Ritmo_circadiano).
 
