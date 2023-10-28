@@ -247,3 +247,6 @@ Bem no começo da Internet, os sites eram hospedados em computadores pessoais, m
 Foi aí que os desenvolvedores da época começaram a mexer nos arquivos, diretamente no servidor, seja através do Windows Server ou SSH do Linux. Mas isso é praticamente um passa para trás, e muitas vezes, ficava complicado sincronizar os arquivos do servidor, com os computadores pessoais dos desenvolvedores. Mas, com a chegada do git, isso mudou!
 
 A ideia foi colocar o git também no servidor, dessa forma, os desenvolvedores davam `push` no repositório, enquanto o servidor realizava o `pull` do mesmo. Assim, se tornava mais fácil toda essa questão de manter o servidor sincronizado com as novas alterações. Com a chegada desse fluxo, automatizações começaram a surgir e em um momento a frente, o fluxo do continuous integration chegou.
+
+## Princípio do Privilégio Mínimo
+Na terceira vídeo-aula da pista lenta, o Filipe menciona o "Principle of Least Privilege", ou Princípio do Privilégio Mínimo, em português. Esse princípio define que, por questões de segurança de sistema, é ideal que seja atribuido a menor quantidade de acessos, credenciais ou privilégios para uma conta dentro do sistema. Afinal, qualquer coisa pode ser considerada uma entrada para ataques.
