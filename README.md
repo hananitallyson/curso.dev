@@ -236,5 +236,5 @@ No [Fundamentos: Protocolos (Dia 4)](#fundamentos-protocolos-dia-4), aprendemos 
 **Continuous Integration** ou **Integração Contínua**, é uma prática que envolve a implementação contínua de novas funcionalidades/versões. Esse fluxo ocorre quando passamos nosso projeto para uma máquina chamada **continuous integretor** ou **C.I**, que realiza testes no nosso código. Se tudo estiver certo, ela envia para outra máquina dedica a **build**, e que em seguida, vai ser enviada de fato para um servidor que vai disponilizar o acesso ao projeto pela internet.
 
 ## Build
-Esse processo, chamado de **build**, ou "construção", é realizado no código-fonte do projeto que constrói uma versão mais otimizada dele, que por sua vez pode roda no servidor e que pode ser aberta pelo navegadores. O processo de **building** envolve várias funções, como controle de versão, qualidade de código e compilação. Para saber mais, acesse o link abaixo.
+Esse processo, chamado de **build**, ou "construção", é realizado no código-fonte do projeto e serve para construir uma versão mais otimizada dele, que por sua vez pode roda no servidor e que pode ser aberta pelo navegadores. O processo de **building** envolve várias funções, como controle de versão, qualidade de código e compilação. Para saber mais, acesse o link abaixo.
 - [Build](https://pt.wikipedia.org/wiki/Build)
