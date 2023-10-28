@@ -170,9 +170,16 @@ Para fazer isso, basta criar o arquivo com o nome `.gitignore` e colocar o nome 
 # Git: Respositório Local e Remoto (Dia 6)
 Continuando essa saga com o git, nas aulas do dia 6, o Filipe fala mais sobre **repositório remoto** e os assuntos que cercam isso. 
 
-Para começarmos, a primeira vídeo-aula da pista lenta trata sobre **push**, que em inglês significa, literalmente, "Empurrar". Quando realizamos o commit no nosso projeto, aplicamos as alterações diretamente em uma nova versão que fica salva no repositório **local**, no entanto, muitas vezes queremos compartilhar nosso código, ou salvar ele em algum lugar fora nossa máquina. Para isso, precisamos mandar o nosso **repositório local** para um **repositório remoto**, a **origin**. O comando que usamos para enviar os arquivos ao repositório remoto é o seguinte:
+Para começarmos, a primeira vídeo-aula da pista lenta trata sobre **push**, que em inglês significa, literalmente, "Empurrar". Quando realizamos o commit no nosso projeto, aplicamos as alterações diretamente em uma nova versão que fica salva no repositório **local**, no entanto, muitas vezes queremos compartilhar nosso código, ou salvar ele em algum lugar fora da nossa máquina. Para isso, precisamos mandar o nosso **repositório local** para um **repositório remoto**, a **origin**. O comando que usamos para enviar os arquivos ao repositório remoto é o seguinte:
 ```shell
 git push
 ```
 
 ## Local e Origin
+Quando estamos trabalhando com repositórios, é importante sabermos a diferença entre o repositório presente na nossa máquina e aquele que está salvo na "nuvem". No caso do projeto `clone-tabnews`, nós temos o repositório **local** no nosso computador (ou codespaces), e o repositório **remoto** na **origin** aqui no GitHub.
+
+Para ver quais servidores remotos temos configurados usamos o comando a seguir:
+```shell
+git remote
+```
+Ao executar, você provavelmente verá o nome origin como output do comando, isso caso tenha clonado seu repositório.
