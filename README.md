@@ -12,6 +12,7 @@ Por fim, quero deixar claro que esse repositório não é a mesma coisa que o cu
 4. [Fundamentos: Protocolos (Dia 4)](#fundamentos-protocolos-dia-4)
 5. [Fundamentos: Git (Dia 5)](#fundamentos-protocolos-dia-4)
 6. [Git: Respositório Local e Remoto (Dia 6)](#git-respositório-local-e-remoto-dia-6)
+7. [Fundamentos: Cliente e Servidor (Dia 7)](#fundamentos-cliente-e-servidor-dia-4)
 
 # Apresentação do curso (Dia 1)
 Dentro do curso, o dia 1 foi separado para dar boas-vindas aos alunos e para apresentar a organização do próprio curso. O curso.dev é dividido de uma maneira na qual os **alunos** são estimulados, e os **conteúdos** bem organizados. Todos os conteúdos dentro do curso são separados por dias, dessa forma, ao ver todas as vídeo-aulas e realizar os exercícios do dia, então aquele dia foi concluído. Como o próprio Deschamps menciona, esse ritmo que leva em consideração o dia é chamado de [Ritmo Circadiano](https://pt.wikipedia.org/wiki/Ritmo_circadiano).
@@ -215,3 +216,5 @@ Ou sua versão comprimida:
 git push -f
 ```
 Apesar de ser possível, forçar um push não é indicado. É um comando periculoso e deve ser feito apenas em ocasiões de grande especificidade, e quando você ou sua equipe possuem total consciência da situação e de como isso vai afetar o projeto.
+
+# Fundamentos: Cliente e Servidor (Dia 7)
