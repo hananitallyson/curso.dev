@@ -196,3 +196,21 @@ Um dos principais objetivos quando trabalhamos com git é de facilitar a nossa v
 ```shell
 git pull
 ```
+
+## Forçando um Push
+Vamos dizer que eu realizei um commit de algo errado no cógido, e sem perceber o erro, eu mandei isso para o repositório remoto usado o `git push`. Bem, tudo que eu preciso fazer é usar o conhecimento que adquirimos na aula do dia anterior, e "viajar no tempo" através da flag `--amend` do comando `git commit`, modificar a linha do tempo do meu repositório e dar `git push` novamente, certo? Não!
+
+Se você fizer esse teste no seu projeto, vai perceber que o git vai retornar uma mensagem de erro, indicando que o seu push foi rejeitado! Isso acontece pois agora existe uma disparidade entre o **local/main** e a **origin/main**. O commit do local é diferente do que está na origin, e ambos estão indicando o commit anterior. Segue o exemplo:
+```
+(Origin) Commit A <-- Commit B1
+(Local)  Commit A <-- Commit B2
+```
+O commit B1 é aquele com o erro, e o commit B2 foi o realizado com `--amend`. Perceba que existe uma divergência entre as linhas do tempo, e por causa disso, o git recusa o seu novo `git push`. No entanto, existe uma forma de **forçar** isso, usando a flag `--force` ao comando de push.
+```shell
+git push --force
+```
+Ou sua versão comprimida:
+```shell
+git push -f
+```
+Apesar de ser possível, forçar um push não é indicado. É um comando periculoso e deve ser feito apenas em ocasiões de grande especificidade, e quando você ou sua equipe possuem total consciência da situação e de como isso vai afetar o projeto.
