@@ -175,9 +175,6 @@ Para começarmos, a primeira vídeo-aula da pista lenta trata sobre **push**, qu
 git push
 ```
 
-## Local e Origin
-Quando estamos trabalhando com repositórios, é importante sabermos a diferença entre o repositório presente na nossa máquina e aquele que está salvo na "nuvem". No caso do projeto `clone-tabnews`, nós temos o repositório **local** no nosso computador (ou codespaces), e o repositório **remoto** na **origin** aqui no GitHub.
-
 Para ver quais servidores remotos temos configurados usamos o comando a seguir:
 ```shell
 git remote
