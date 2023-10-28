@@ -183,7 +183,8 @@ Para ver quais servidores remotos temos configurados usamos o comando a seguir:
 ```shell
 git remote
 ```
-Ao executar, você provavelmente verá o nome origin como output do comando, isso caso tenha clonado seu repositório.
+Ao executar, você provavelmente verá o nome origin como output do comando, isso caso tenha clonado seu repositório. Para saber ainda mais sobre, acesse o link abaixo.
+- [Fundamentos de Git - Trabalhando de Forma Remota](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Trabalhando-de-Forma-Remota)
 
 ## Branch
 Apesar de o foco não ser Branches nesse aula, o Deschamps explica bem por cima, que a branch em que estamos trabalhando é a **main**, ou seja, a branch principal. É possível ver isso através dos repositórios, que indicam **local/main** e **origin/main**, ou seja, primeiro o repositório e em seguida a branch trabalhada. Para ver qual a branch estamos trabalhando, use o comando:
