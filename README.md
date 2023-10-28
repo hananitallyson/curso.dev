@@ -126,6 +126,10 @@ O ponto representa que estamos adicionando todos os arquivos. Então podemos seg
 ```shell
 git commit
 ```
+Outra maneira de realizar o commit é adicionando a flag `-m` para escrever a mensagem de commit direto da linha de comando:
+```shell
+git commit -m "<mensagem>"
+```
 
 ## Stage
 Na terceira aula da pista lenta, aprendemos sobre os **stages** em que um arquivo passa dentro do git. "Stage" vem do inglês e significa "Estágio", e dentro do git existe 3 estágios para os arquivos: **modified**, **staged** e **committed**. Esses 3 estágios representam, respectivamente, os estágios de modificado, arranjado (ou planejado) e compromissado (ou cumprido). Os estágios mencionados funcionam como uma "escada", onde o primeiro degrau é o modified, o seguinte é staged, e por fim o committed.
@@ -180,3 +184,15 @@ Para ver quais servidores remotos temos configurados usamos o comando a seguir:
 git remote
 ```
 Ao executar, você provavelmente verá o nome origin como output do comando, isso caso tenha clonado seu repositório.
+
+## Branch
+Apesar de o foco não ser Branches nesse aula, o Deschamps explica bem por cima, que a branch em que estamos trabalhando é a **main**, ou seja, a branch principal. É possível ver isso através dos repositórios, que indicam **local/main** e **origin/main**, ou seja, primeiro o repositório e em seguida a branch trabalhada. Para ver qual a branch estamos trabalhando, use o comando:
+```shell
+git branch
+```
+
+## Pushing e Pulling
+Um dos principais objetivos quando trabalhamos com git é de facilitar a nossa vida quando queremos "puxar" alterações do código do remoto para o local, assim como "empurrar" as alterações que fizemos. Nessa situação de enviar nossas alterações, já sabemos qual comando usar, o `git push`, mas para fazer o download do repositório, ou seja, baixar as alterações, como fazemos? Bem, a resposta está no **pull**, que em inglês significa, literalmente, "puxar".
+```shell
+git pull
+```
