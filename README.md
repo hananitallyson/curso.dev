@@ -218,3 +218,23 @@ git push -f
 Apesar de ser possível, forçar um push não é indicado. É um comando periculoso e deve ser feito apenas em ocasiões de grande especificidade, e quando você ou sua equipe possuem total consciência da situação e de como isso vai afetar o projeto.
 
 # Fundamentos: Cliente e Servidor (Dia 7)
+Chegou a hora de falarmos sobre **Cliente** e **Servidor**, além de outras coisas que estão presentes nas vídeo-aulas do dia 7.
+
+Se essa não é a primeira vez que você mexe com desenvolvimento, já deve ter ouvido falar sobre **client** e **server**, ou respectivamente, cliente e servidor. Esses dois termos representam a dinâmica entre uma entidade que realiza pedidos (cliente) e outra que responde por esses pedidos (servidor).
+
+Uma analogia para isso, é quando pedimos algo para um garçom, nessa situação nós somos o cliente e o garçom o servidor. No entanto, existe mais camadas nisso, quando por exemplo, fazemos nosso pedido ao garçom e ele faz o pedido à cozinha para preparar nossa comida. Em algo desse tipo, nós ainda somos o cliente, e o garçom ainda é o nosso servidor, mas o garçom também é um cliente, que agora está pedindo algo à cozinha que é outro servidor. Quando a comida está pronta, a cozinha entrega ao garçom, e ele nós entrega a comida que pedimos.
+
+No [Fundamentos: Protocolos (Dia 4)](#fundamentos-protocolos-dia-4), aprendemos o que são protocolos. Esse conhecimento é fundamental, uma vez que a comunicação entre cliente e servidor, funciona através desse protocolos.
+
+## Hosting
+**Hosting**, do inglês, "Hospedagem", é o ato de hospedar um site. O termo hospedar é utilizado, pois a própria palavra significa oferecer ou receber abrigo, que nesse caso, é uma máquina que oferece abrigo para os arquivos do nosso projeto. E é através dela, que outros clientes, podem acessar o nosso site por essa máquina, que por sua vez, é um servidor dedicado para hospedagem.
+
+## Deploy
+**Deploy**, também vindo do inglês, significa "Implantar" ou "Depositar", sendo o termo utilizado para se referir a ação de colocar esses arquivos do nosso projeto dentro do servidor de hospedagem.
+
+## Continuous Integration
+**Continuous Integration** ou **Integração Contínua**, é uma prática que envolve a implementação contínua de novas funcionalidades/versões. Esse fluxo ocorre quando passamos nosso projeto para uma máquina chamada **continuous integretor** ou **C.I**, que realiza testes no nosso código. Se tudo estiver certo, ela envia para outra máquina dedica a **build**, e que em seguida, vai ser enviada de fato para um servidor que vai disponilizar o acesso ao projeto pela internet.
+
+## Build
+Esse processo, chamado de **build**, ou "construção", é realizado no código-fonte do projeto que constrói uma versão mais otimizada dele, que por sua vez pode roda no servidor e que pode ser aberta pelo navegadores. O processo de **building** envolve várias funções, como controle de versão, qualidade de código e compilação. Para saber mais, acesse o link abaixo.
+- [Build](https://pt.wikipedia.org/wiki/Build)
