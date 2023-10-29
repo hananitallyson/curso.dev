@@ -32,6 +32,6 @@ A ideia foi colocar o git também no servidor, dessa forma, os desenvolvedores d
 ## Princípio do Privilégio Mínimo
 Na terceira vídeo-aula da pista lenta, o Filipe menciona o "Principle of Least Privilege", ou Princípio do Privilégio Mínimo, em português. Esse princípio define que, por questões de segurança de sistema, é ideal que seja atribuido a menor quantidade de acessos, credenciais ou privilégios para uma conta dentro do sistema. Afinal, qualquer coisa pode ser considerada uma entrada para ataques.
 
-- [Anterior](/dias/dia6.md)
-- [Próximo](/dias/dia8.md)
-- [Sumário](../README.md)
+---
+
+- [Anterior](/dias/dia6.md) - [Próximo](/dias/dia8.md) - [Sumário](../README.md)

@@ -92,6 +92,6 @@ Quando criamos um repositório git para nosso projeto, geralmente vai acabar exi
 
 Para fazer isso, basta criar o arquivo com o nome `.gitignore` e colocar o nome dos arquivos e pastas, faça o commit e pronto.
 
-- [Anterior](/dias/dia4.md)
-- [Próximo](/dias/dia6.md)
-- [Sumário](../README.md)
+---
+
+- [Anterior](/dias/dia4.md) - [Próximo](/dias/dia6.md) - [Sumário](../README.md)

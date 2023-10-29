@@ -9,6 +9,6 @@ O aluno [André Cruz Mendes](https://github.com/andrecruzmendes) comentou no ví
 
 Assim como ele, eu vejo essa sendo a melhor forma de absorver o conteúdo do curso, além de ser bem útil quando estamos querendo apenas um resumo sobre o assunto, para fazer breves anotações ou para relembrar de certas coisas.
 
-- [Anterior](../README.md)
-- [Próximo](/dias/dia2.md)
-- [Sumário](../README.md)
+---
+
+- [Anterior](../README.md) - [Próximo](/dias/dia2.md) - [Sumário](../README.md)

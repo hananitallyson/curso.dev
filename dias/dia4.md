@@ -17,6 +17,6 @@ Para isso, eu usei o Vercel. Eu cheguei nessa conclusão, pois em aulas anterior
 
 É interessante mencionar que durante o deploy, o Vercel indicou que o arquivo `.next` não deveria ser enviado dentro do repositório. No dia seguinte, isso vai ser importante...
 
-- [Anterior](/dias/dia3.md)
-- [Próximo](/dias/dia5.md)
-- [Sumário](../README.md)
+---
+
+- [Anterior](/dias/dia3.md) - [Próximo](/dias/dia5.md) - [Sumário](../README.md)
