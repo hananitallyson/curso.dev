@@ -6,7 +6,7 @@ Outro repositório meu que possui uma finalidade semelhante é o [Hanani's Guide
 Por fim, quero deixar claro que esse repositório não é a mesma coisa que o curso em si, então, se você gostou do que está aqui, tente dar uma chance ao [curso.dev](https://curso.dev/) se tiver condições.
 
 # Sumário
-1. [Apresentação do curso (Dia 1)](#apresentação-do-curso-dia-1)
+1. [Apresentação do curso (Dia 1)](/dia1.md)
 2. [Introdução (Dia 2)](#introdução-dia-2)
 3. [Começando com o repositório e Reflexões de bônus (Dia 3)](#começando-com-o-repositório-e-reflexões-de-bônus-dia-3)
 4. [Fundamentos: Protocolos (Dia 4)](#fundamentos-protocolos-dia-4)
