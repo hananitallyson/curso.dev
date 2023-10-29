@@ -11,3 +11,7 @@ Eu não pude deixar de me lembrar dos vídeos do [Fabio Akita](https://www.youtu
 - [Sua Linguagem NÃO É Especial! (Parte 2)](https://youtu.be/XcTTajFENHI)
 - [Sua Linguagem É Especial? Parte 1 em 2001](https://youtu.be/NwAvovzHRDU)
 - [Sua Linguagem É Especial? Parte 2 em 2001](https://youtu.be/O4CWVQLbi48)
+
+- [Anterior](/dias/dia1.md)
+- [Próximo](/dias/dia3.md)
+- [Sumário](../README.md)

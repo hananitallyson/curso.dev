@@ -42,3 +42,7 @@ Ou sua versão comprimida:
 git push -f
 ```
 Apesar de ser possível, forçar um push não é indicado. É um comando periculoso e deve ser feito apenas em ocasiões de grande especificidade, e quando você ou sua equipe possuem total consciência da situação e de como isso vai afetar o projeto.
+
+- [Anterior](/dias/dia5.md)
+- [Próximo](/dias/dia7.md)
+- [Sumário](../README.md)

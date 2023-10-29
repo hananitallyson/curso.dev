@@ -8,3 +8,7 @@ O aluno [André Cruz Mendes](https://github.com/andrecruzmendes) comentou no ví
 >Se você chegou agora no curso, vai encontrar as pistas rápidas no início de cada dia, mas na prática elas são produzidas e liberadas após as pistas lentas. Elas identificam os pontos mais importantes do conteúdo do dia e servem como um resumo do que foi ensinado em todas as lições (ou do que será ensinado, se você estiver assistindo antes). A dica, então, para aproveitar bem o conteúdo, é assistir a pista rápida antes e também depois, como uma forma de revisão.
 
 Assim como ele, eu vejo essa sendo a melhor forma de absorver o conteúdo do curso, além de ser bem útil quando estamos querendo apenas um resumo sobre o assunto, para fazer breves anotações ou para relembrar de certas coisas.
+
+- [Anterior](../README.md)
+- [Próximo](/dias/dia2.md)
+- [Sumário](../README.md)

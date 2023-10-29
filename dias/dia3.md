@@ -17,3 +17,7 @@ asdf local <nome> <versão>
 
 ## Analysis Paralysis
 Na última vídeo-aula do dia 3, o Deschamps traz o conhecimento sobre [Analysis Paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis), que de acordo com a Wiki representa o estado de ficar paralisado por pensar demais. Ou seja, é o fenômeno que ocorre com muitos de nós quando pensamos demais sobre qual linguagem usar, ou qual framework devemos utilizar, e acabamos estagnados por causa da incerteza.
+
+- [Anterior](/dias/dia2.md)
+- [Próximo](/dias/dia4.md)
+- [Sumário](../README.md)

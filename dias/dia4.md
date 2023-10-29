@@ -16,3 +16,7 @@ Eu resolvi fazer esse desafio mandando o link para o meu melhor amigo, então a 
 Para isso, eu usei o Vercel. Eu cheguei nessa conclusão, pois em aulas anteriores, o próprio Deschamps já havia mencionado que era possível hospedar de forma gratuita no Vercel, sendo assim, fiz o **commit** através do `git` para o repositório no GitHub. De lá, o Vercel fez o resto, configurei poucas coisas e pronto, o site estava no ar: [https://hananitallyson-clone-tabnews.vercel.app/](https://hananitallyson-clone-tabnews.vercel.app/).
 
 É interessante mencionar que durante o deploy, o Vercel indicou que o arquivo `.next` não deveria ser enviado dentro do repositório. No dia seguinte, isso vai ser importante...
+
+- [Anterior](/dias/dia3.md)
+- [Próximo](/dias/dia5.md)
+- [Sumário](../README.md)
