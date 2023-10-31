@@ -14,3 +14,4 @@ Por fim, quero deixar claro que esse repositório não é a mesma coisa que o cu
 6. [Git: Respositório Local e Remoto (Dia 6)](/dias/dia6.md)
 7. [Fundamentos: Cliente e Servidor (Dia 7)](/dias/dia7.md)
 8. [Programação "Orgânica" versus "Impressora 3D" (Dia 8)](/dias/dia8.md)
+9. [Organizando um Projeto (Dia 9)](/dias/dia9.md)
