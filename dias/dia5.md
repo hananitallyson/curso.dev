@@ -86,7 +86,7 @@ git log --oneline
 Isso acontece, pois os commits são imutáveis, ou seja, não podem ser de fato alterados, eles são únicos!
 
 ## .gitignore
-Lembra que no final do [dia 4](/dias/dia4.md) eu disse que o Vercel havia indicado que o arquivo `.next` não deveria ser enviado dentro do repositório, e que era importante lembrar disso? Bem, aqui vai o motivo!
+Lembra que no final do [dia 4](/dias/dia4.md#desafio) eu disse que o Vercel havia indicado que o arquivo `.next` não deveria ser enviado dentro do repositório, e que era importante lembrar disso? Bem, aqui vai o motivo!
 
 Quando criamos um repositório git para nosso projeto, geralmente vai acabar existindo pastas e arquivos que nós não queremos que vá junto do projeto, seja por organização ou por segurança. Um exemplo disso, é o arquivo `.env` que deve ser ignorado pelo git por motivos de segurança, uma vez que esse arquivo pode conter informações sobre banco de dados, chaves de API ou configurações gerais da aplicação, que poderiam facilmente serem usadas em um ataque. Por causa disso, existe o arquivo de texto `.gitignore`, que serve basicamente para dizer ao git quais arquivos e pastas devem ser ignorados.
 
