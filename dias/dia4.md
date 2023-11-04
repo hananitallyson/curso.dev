@@ -8,6 +8,9 @@ Dentre os protocolos citados na aula, estão os dois: UDP e TCP. **User Datagram
 
 O UDP, por sua vez, é mais rápido e por causa disso é geralmente utilizado por serviços como **transmissões ao vivo** e **vídeo-games**. O UDP é usado nesses cenários, pois a perda de pacote é irrisória e pode ser compensada pelos próprios usuários, como quando pedimos para alguém repetir o que disse, pois a chamada havia "travado". No mundo dos jogos, chamamos essa perda de pacotes de **Lag**. Para saber mais sobre isso, veja o vídeo compartilhado pelo próprio Filipe: [HTML5 Games - UDP vs TCP](https://youtu.be/ZEEBsq3eQmg).
 
+## Internet Protocol
+**Internet Protocol**, comumente chamado de **IP**, é um protocolo de comunicação usado entre todas as máquinas em rede para encaminhamento dos dados. Usado no modelo **TCP/IP**. Muitas vezes, associamos o termo IP ou **endereço IP**, que por sua vez é um endereço de dispositivo que é rótulado por um conjunto de números.
+
 ## Desafio
 No fim do dia, o Filipe manda um desafio: colocar o projeto em um link público e enviar esse link para alguém, e então ver qual é a reação dela para a mensagem deixada na página.
 
