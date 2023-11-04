@@ -45,4 +45,4 @@ O TLD Server verifica o domínio que lhe foi passado e indica qual o **Authorita
 
 ---
 
-- [Anterior](/dias/dia9.md) - [Próximo](/dias/dia11.md) - [Sumário](../README.md)
+- [Anterior](/dias/dia10.md) - [Próximo](/dias/dia12.md) - [Sumário](../README.md)
