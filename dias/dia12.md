@@ -13,7 +13,7 @@ Por fim, o próprio **Registry** vai atualizar o servidor TLD, que no caso do zo
 ## Configurando o servidor de DNS
 Quando registramos um servidor, geralmente ele vai ter consigo um apotamento padrão para o servidor autoritativo. No caso do Registro.br, o DNS padrão é a.auto.dns.br e b.auto.dns.br. Para configurar o servidor DNS, é possível usar servidores da Cloudflare, Vercel, e outros que também fornecem esse tipo de serviço, seja pago ou gratuito.
 
-No caso do curso.dev, usamos o serviço da Vercel e seus nameservers.
+No caso do curso.dev, usamos o serviço da [Vercel e seus nameservers](https://vercel.com/docs/projects/domains/working-with-nameservers).
 
 ---
 
