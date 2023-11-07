@@ -19,3 +19,4 @@ Por fim, quero deixar claro que esse repositório não é a mesma coisa que o cu
 9. [Organizando um Projeto (Dia 9)](/dias/dia9.md)
 10. [Estilização de Código (Dia 10)](/dias/dia10.md)
 11. [Fundamentos: Domain Name System (Dia 11)](/dias/dia11.md)
+12. [Registro de Domínio e Configuração de DNS (Dia 12)](/dias/dia12.md)
