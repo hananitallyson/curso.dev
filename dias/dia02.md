@@ -14,4 +14,4 @@ Eu não pude deixar de me lembrar dos vídeos do [Fabio Akita](https://www.youtu
 
 ---
 
-- [Anterior](/dias/dia1.md) - [Próximo](/dias/dia3.md) - [Sumário](../README.md)
+- [Anterior](/dias/dia01.md) - [Próximo](/dias/dia03.md) - [Sumário](../README.md)
