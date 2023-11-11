@@ -4,7 +4,7 @@ No dia 16, exploramos assuntos essenciais ao desenvolvimento, desde tipos de tes
 ## HTTP
 
 ## API
-**API** é um acrônimo de **Application Programming Interface**, ou em português "Interface de Programação de Aplicações". Para compreendermos o que de fato é uma **API**, precisamos esmiuçar melhor o seu nome e suas implicações. Vamos começar por **Interface**. Uma **interface** é um meio pela qual alguém **interage** com um dispositivo, ou seja, é o meio por onde um usuário e um dispositivo vão se comunicar.
+**API** é um acrônimo de **Application Programming Interface**, ou em português "Interface de Programação de Aplicações". Para compreendermos o que de fato é uma **API**, precisamos esmiuçar melhor o seu nome e suas implicações. Vamos começar por **Interface**. Uma **interface** é um **meio** pela qual alguém **interage** com um dispositivo, ou seja, é o **meio** por onde um usuário e um dispositivo vão se comunicar.
 
 Em seguida, temos **programming**, ou **programação**. Primeiramente, **programação** está relacionada ao ato de programar, que é elaborar um programa de computador realizando **implementações**. E dentro do contexto de **API**, o termo **programação** associa-se a algo programável. Quando comparamos uma interface voltada para seres humanos com uma **API**, a diferença é notoria, uma vez que interfaces web, por exemplo, possuem menus, estilizações, layouts, etc., enquanto uma **API** foca em apresentar suas informações de uma **meio** diferente, que é torne mais fácil de ser lido por um outro programa.
 
