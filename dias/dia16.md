@@ -11,7 +11,30 @@ Por fim, temos **application**, ou **aplicações**. Uma **aplicação** é um p
 Em conclusão, **API** é uma interface voltada a apresentar dados de uma aplicação de uma maneira que seja fácil a implementação ou integração da mesma com um outro programa.
 
 ## Requests e Responses
+**Request** e **Response** ou em português "Pedido" e "Resposta", é um método básico de comunicação entre computadores, onde um envia uma **Resquest** e o outro devolve uma **Response**. A **request** contém alguns dados que se referem ao pedido, enquanto a **response** devolve a resposta de acordo com o pedido. A mensagem enviada pelo **client**, o cliente, é uma **request**, enquanto a mensagem do **server**, o servidor, é uma **response**. A seguir, um exemplo de pedido e resposta **HTTP**:
+```
+GET / HTTP/1.0
+Host: cs.fyi
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5)
+Accept: */*
+```
+```
+HTTP/1.0 200 OK 
+Content-Type: text/plain
+Content-Length: 137582
+Expires: Thu, 05 Dec 1997 16:00:00 GMT
+Last-Modified: Wed, 5 August 1996 15:55:28 GMT
+Server: Apache 0.84
 
+(response body)
+(connection closed)
+```
+
+### Endpoint
+**Endpoint**, em tradução livre significa "Ponto Final", mas na verdade esse termo se refere a um **Ponto de Conexão** e é um caminho de entrada para uma **API**. Um **HTTP endpoint** é uma URL que pode ser segmentada em **protocolo**, **localização do servidor**, **porta** e o alvo **URI**. Por exemplo:
+```
+http://localhost:3000/api/v1/status
+```
 
 ## Tipos de Testes
 No geral, existe 3 principais tipos de testes automatizados, sendo eles: **testes de unidade** ou **testes unitários** (_Unit Tests_), **testes de integração** (_Integration Tests_) e **testes de ponta a ponta** (_testes end-to-end_). Em resumo, os **testes de unidade** são os mais fáceis de serem feitos, e seu propósito está em testar um único elemento dentro do software, como métodos, funções individuais de classes, componentes ou módulos. Por causa de sua simplicidade, seu custo é baixo e são executados com maior rapidez.
