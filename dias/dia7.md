@@ -5,7 +5,7 @@ Se essa não é a primeira vez que você mexe com desenvolvimento, já deve ter 
 
 Uma analogia para isso, é quando pedimos algo para um garçom, nessa situação nós somos o cliente e o garçom o servidor. No entanto, existe mais camadas nisso, quando por exemplo, fazemos nosso pedido ao garçom e ele faz o pedido à cozinha para preparar nossa comida. Em algo desse tipo, nós ainda somos o cliente, e o garçom ainda é o nosso servidor, mas o garçom também é um cliente, que agora está pedindo algo à cozinha que é outro servidor. Quando a comida está pronta, a cozinha entrega ao garçom, e ele nós entrega a comida que pedimos.
 
-No [Fundamentos: Protocolos (Dia 4)](/dias/dia4.md), aprendemos o que são protocolos. Esse conhecimento é fundamental, uma vez que a comunicação entre cliente e servidor, funciona através desses protocolos.
+No [Fundamentos: Protocolos (Dia 4)](/dias/dia04.md), aprendemos o que são protocolos. Esse conhecimento é fundamental, uma vez que a comunicação entre cliente e servidor, funciona através desses protocolos.
 
 ## Hosting
 **Hosting**, do inglês, "Hospedagem", é o ato de hospedar um site. O termo hospedar é utilizado, pois a própria palavra significa oferecer ou receber abrigo, que nesse caso, é uma máquina que oferece abrigo para os arquivos do nosso projeto. E é através dela, que outros clientes, podem acessar o nosso site por essa máquina, que por sua vez, é um servidor dedicado para hospedagem.
@@ -34,4 +34,4 @@ Na terceira vídeo-aula da pista lenta, o Filipe menciona o "Principle of Least 
 
 ---
 
-- [Anterior](/dias/dia6.md) - [Próximo](/dias/dia8.md) - [Sumário](../README.md)
+- [Anterior](/dias/dia06.md) - [Próximo](/dias/dia08.md) - [Sumário](../README.md)
