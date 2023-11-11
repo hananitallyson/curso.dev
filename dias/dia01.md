@@ -11,4 +11,4 @@ Assim como ele, eu vejo essa sendo a melhor forma de absorver o conteúdo do cur
 
 ---
 
-- [Anterior](../README.md) - [Próximo](/dias/dia2.md) - [Sumário](../README.md)
+- [Anterior](../README.md) - [Próximo](/dias/dia02.md) - [Sumário](../README.md)
