@@ -10,7 +10,7 @@ Em seguida, temos **programming**, ou **programação**. Primeiramente, **progra
 
 Por fim, temos **application**, ou **aplicações**. Uma **aplicação** é um programa ou até mesmo um conjunto de programas que é utilizado para realizar uma tarefa específica ou múltiplas tarefas relacionadas.
 
-Em conclusão, **API** é uma interface voltada a apresentar uma aplicação de uma maneira que seja fácil a implementação ou integração da mesma com um outro programa.
+Em conclusão, **API** é uma interface voltada a apresentar dados de uma aplicação de uma maneira que seja fácil a implementação ou integração da mesma com um outro programa.
 
 ## Tipos de Testes
 No geral, existe 3 principais tipos de testes automatizados, sendo eles: **testes de unidade** ou **testes unitários** (_Unit Tests_), **testes de integração** (_Integration Tests_) e **testes de ponta a ponta** (_testes end-to-end_). Em resumo, os **testes de unidade** são os mais fáceis de serem feitos, e seu propósito está em testar um único elemento dentro do software, como métodos, funções individuais de classes, componentes ou módulos. Por causa de sua simplicidade, seu custo é baixo e são executados com maior rapidez.
