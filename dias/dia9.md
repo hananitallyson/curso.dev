@@ -7,7 +7,7 @@ Nós somos tendenciosos, e sempre desejamos "fazer muito com pouco", ou seja, tr
 
 A analogia que o Filipe utiliza na explicação, é que o projeto pode ser visto como uma grande pedra, sendo trabalho nosso quebrá-la em pedaços menores. Agora, essas pequenas pedrinhas servem como marcos no nosso projeto, as **milestones** que serão planejadas, dessa maneira, quando concluímos um desses marcos, podemos ver o nosso progresso em relação ao desenvolvimento do mesmo. No fim, estamos trabalhando pouco, para receber pouco.
 
-Contudo, não podemos viver apenas de planejamento, afinal, geralmente planejamos muito e executamos pouco! Lembram que no [dia 3](/dias/dia3.md) o Filipe menciona a Analysis Paralysis, que seria o estado de ficar paralisado por pensar demais? Então, é exatamente isso que acontece. Quando começamos a planejar em níveis mais intensos, a ponto de pensar mais no planejamento do que na execução, então de nada adianta planejar.
+Contudo, não podemos viver apenas de planejamento, afinal, geralmente planejamos muito e executamos pouco! Lembram que no [dia 3](/dias/dia03.md) o Filipe menciona a Analysis Paralysis, que seria o estado de ficar paralisado por pensar demais? Então, é exatamente isso que acontece. Quando começamos a planejar em níveis mais intensos, a ponto de pensar mais no planejamento do que na execução, então de nada adianta planejar.
 
 ## 4 Níveis de Organização
 Aqui, o Filipe nos apresenta os seus 4 níveis de organização, e isso não necessariamente significa que um é superior ao outro, apenas que eles servem para níveis diferentes de projeto e contexto.
@@ -19,4 +19,4 @@ Aqui, o Filipe nos apresenta os seus 4 níveis de organização, e isso não nec
 
 ---
 
-- [Anterior](/dias/dia8.md) - [Próximo](/dias/dia10.md) - [Sumário](../README.md)
+- [Anterior](/dias/dia08.md) - [Próximo](/dias/dia10.md) - [Sumário](../README.md)
