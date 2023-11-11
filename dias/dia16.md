@@ -1,5 +1,5 @@
 # Fundamentos: API, Requests e Responses (Dia 16)
-No dia 16, exploramos assuntos essenciais ao desenvolvimento, desde tipos de testes automatizados, recomendo ver o [Testes Automatizados (Dia 15)](/dias/dia15.md) para entender melhor sobre testes, até protocolo **HTTP** e **API**, para mais informações sobre protocolo, recomendo ver o [Fundamentos: Protocolos (Dia 4)](/dias/dia04.md).
+No dia 16, exploramos assuntos essenciais ao desenvolvimento, desde tipos de testes automatizados, recomendo ver o [Testes Automatizados (Dia 15)](/dias/dia15.md) para entender melhor sobre testes, até **API** e um pouco de **HTTP** com **Requests** e **Responses**, para mais informações sobre protocolo, recomendo ver o [Fundamentos: Protocolos (Dia 4)](/dias/dia04.md).
 
 ## API
 **API** é um acrônimo de **Application Programming Interface**, ou em português "Interface de Programação de Aplicações". Para compreendermos o que de fato é uma **API**, precisamos esmiuçar melhor o seu nome e suas implicações. Vamos começar por **Interface**. Uma **interface** é um **meio** pela qual alguém **interage** com um dispositivo, ou seja, é o **meio** por onde um usuário e um dispositivo vão se comunicar.
