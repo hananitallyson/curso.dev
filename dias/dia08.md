@@ -9,4 +9,4 @@ Na última aula do dia 8 com o título "Por que meus projetos sempre dão certo?
 
 ---
 
-- [Anterior](/dias/dia7.md) - [Próximo](/dias/dia9.md) - [Sumário](../README.md)
+- [Anterior](/dias/dia07.md) - [Próximo](/dias/dia09.md) - [Sumário](../README.md)
