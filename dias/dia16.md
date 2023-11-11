@@ -1,4 +1,4 @@
-# Fundamentos: API, Requests e Responses (Dia 16)
+# Fundamentos: API, Endpoint, Requests e Responses (Dia 16)
 No dia 16, exploramos assuntos essenciais ao desenvolvimento, desde tipos de testes automatizados, recomendo ver o [Testes Automatizados (Dia 15)](/dias/dia15.md) para entender melhor sobre testes, até **API** e um pouco de **HTTP** com **Requests** e **Responses**, para mais informações sobre protocolo, recomendo ver o [Fundamentos: Protocolos (Dia 4)](/dias/dia04.md).
 
 ## API
@@ -9,6 +9,12 @@ Em seguida, temos **programming**, ou **programação**. Primeiramente, **progra
 Por fim, temos **application**, ou **aplicações**. Uma **aplicação** é um programa ou até mesmo um conjunto de programas que é utilizado para realizar uma tarefa específica ou múltiplas tarefas relacionadas.
 
 Em conclusão, **API** é uma interface voltada a apresentar dados de uma aplicação de uma maneira que seja fácil a implementação ou integração da mesma com um outro programa.
+
+## Endpoint
+**Endpoint**, em tradução livre significa "Ponto Final", mas na verdade esse termo se refere a um **Ponto de Conexão** e é um caminho de entrada para uma **API**. Um **HTTP endpoint** é uma URL que pode ser segmentada em **protocolo**, **localização do servidor**, **porta** e o alvo **URI**. Por exemplo:
+```
+http://localhost:3000/api/v1/status
+```
 
 ## Requests e Responses
 **Request** e **Response** ou em português "Pedido" e "Resposta", é um método básico de comunicação entre computadores, onde um envia uma **Resquest** e o outro devolve uma **Response**. A **request** contém alguns dados que se referem ao pedido, enquanto a **response** devolve a resposta de acordo com o pedido. A mensagem enviada pelo **client**, o cliente, é uma **request**, enquanto a mensagem do **server**, o servidor, é uma **response**. A seguir, um exemplo de pedido e resposta **HTTP/1.0**:
@@ -28,12 +34,6 @@ Server: Apache 0.84
 
 (response body)
 (connection closed)
-```
-
-### Endpoint
-**Endpoint**, em tradução livre significa "Ponto Final", mas na verdade esse termo se refere a um **Ponto de Conexão** e é um caminho de entrada para uma **API**. Um **HTTP endpoint** é uma URL que pode ser segmentada em **protocolo**, **localização do servidor**, **porta** e o alvo **URI**. Por exemplo:
-```
-http://localhost:3000/api/v1/status
 ```
 
 ## Tipos de Testes
