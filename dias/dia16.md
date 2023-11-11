@@ -44,3 +44,7 @@ Os **testes de integração**, por outro lado, possuem uma complexidade maior do
 Por último, os **testes ponta a ponta** são dentre os 3, o mais complexo e com maior custo de execução. O objetivo desse tipo de teste é simular o comportamento de um usuário com o software em um ambiente de sistema completo, incluindo diversos fluxos, como carregamento de página, login, cenários de validação de e-mail, senha, etc.
 
 Para saber mais sobre testes, veja [Tipos de testes: quais os principais e por que utilizá-los?](https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los).
+
+---
+
+- [Anterior](/dias/dia15.md) - [Próximo](/dias/dia17.md) - [Sumário](../README.md)
