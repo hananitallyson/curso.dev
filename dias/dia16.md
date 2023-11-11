@@ -11,7 +11,7 @@ Por fim, temos **application**, ou **aplicações**. Uma **aplicação** é um p
 Em conclusão, **API** é uma interface voltada a apresentar dados de uma aplicação de uma maneira que seja fácil a implementação ou integração da mesma com um outro programa.
 
 ## Requests e Responses
-**Request** e **Response** ou em português "Pedido" e "Resposta", é um método básico de comunicação entre computadores, onde um envia uma **Resquest** e o outro devolve uma **Response**. A **request** contém alguns dados que se referem ao pedido, enquanto a **response** devolve a resposta de acordo com o pedido. A mensagem enviada pelo **client**, o cliente, é uma **request**, enquanto a mensagem do **server**, o servidor, é uma **response**. A seguir, um exemplo de pedido e resposta **HTTP**:
+**Request** e **Response** ou em português "Pedido" e "Resposta", é um método básico de comunicação entre computadores, onde um envia uma **Resquest** e o outro devolve uma **Response**. A **request** contém alguns dados que se referem ao pedido, enquanto a **response** devolve a resposta de acordo com o pedido. A mensagem enviada pelo **client**, o cliente, é uma **request**, enquanto a mensagem do **server**, o servidor, é uma **response**. A seguir, um exemplo de pedido e resposta **HTTP/1.0**:
 ```
 GET / HTTP/1.0
 Host: cs.fyi
