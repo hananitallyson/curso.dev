@@ -20,4 +20,4 @@ Na última vídeo-aula do dia 3, o Deschamps traz o conhecimento sobre [Analysis
 
 ---
 
-- [Anterior](/dias/dia2.md) - [Próximo](/dias/dia4.md) - [Sumário](../README.md)
+- [Anterior](/dias/dia02.md) - [Próximo](/dias/dia04.md) - [Sumário](../README.md)
