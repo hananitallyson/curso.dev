@@ -10,6 +10,11 @@ Por fim, temos **application**, ou **aplicações**. Uma **aplicação** é um p
 
 Em conclusão, **API** é uma interface voltada a apresentar dados de uma aplicação de uma maneira que seja fácil a implementação ou integração da mesma com um outro programa.
 
+### Versionamento de API
+Quando fazemos uma mudança na nossa **API**, estamos desenvolvendo uma nova versão dela. No caso dessa mudança resultar em uma quebra na integração, teremos então uma **Breaking Change**, do contrário, teremos uma **Non-breaking Change**, ou seja, uma alteração que não interferiu na compatibilidade anterior com as outras aplicações que consomem a **API**, na qual o termo em inglês usado para se referir a essa compatibilidade é **Backward Compatibility**.
+
+Existem diversas estratégias para organizarmos melhor as versões de uma **API**, dentre elas as principais são: **URI Path Versioning** que se utiliza do Path para agrupar as versões, e a **Header Versioning** que utiliza o header da **request** para indicar a versão desejada.
+
 ## Endpoint
 **Endpoint**, em tradução livre significa "Ponto Final", mas na verdade esse termo se refere a um **Ponto de Conexão** e é um caminho de entrada para uma **API**. Um **HTTP endpoint** é uma URL que pode ser segmentada em **protocolo**, **localização do servidor**, **porta** e o alvo **URI**. Por exemplo:
 ```
