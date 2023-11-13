@@ -59,6 +59,31 @@ Enquanto o **Control Groups**, conhecido também só por **cgroups**, serve para
 
 E é assim que surge a ideia de **Container**, que nada mais é do que um ambiente **isolado**, disposto em um servidor. Então quando temos vários serviços, podemos sepoará-los em **containers**, e todos eles vão dividir uma única máquina host, economizando bastante o custo de memória e processamento.
 
+### Usando Docker e Docker Compose
+Para usar o **Docker** existe o comando de mesmo nome: `docker`. Através deste comando, podemos fazer tudo que é necessário para colocar um container para rodar. Com o subcomando `docker compose` é possível construir e gerenciar serviços em containers.
+
+Primeiramente, dentro do nosso projeto é preciso ter um arquivo chamado `compose.yaml`, que é um arquivo de configuração resposável por listar os serviços e de onde está vindo a **docker image** desse serviço. Esse **docker image**, ou imagem docker é um binário resultante da compilação de um **dockerfile**, ou seja, um arquivo docker. E o container é uma imagem docker em funcionamento. É por causa disso, que podemos usar imagens prontas, ou seja, que foram já foram compiladas. Baixando essas imagens de repositórios como o [DockerHub](https://hub.docker.com/). Abaixo, um exemplo de `compose.yaml` usado para rodar um banco de dados PostgreSQL.
+
+```yaml
+# compose.yaml
+
+services:
+  database:
+    image: "postgres:16.0-alpine3.18"
+    environment:
+      POSTGRES_PASSWORD: "local_password" # O valor da senha pode ser alterado
+```
+
+Como dito anteriormente, usando o `docker compose` podemos **levantar** (_Up_) o container com as informações descritas no `compose.yaml`.
+```sh
+docker compose up
+```
+
+Para **derrubar** (_Down_) o serviço, usando o comando abaixo:
+```sh
+docker compose down
+```
+
 ---
 
 - [Anterior](/dias/dia16.md) - [Próximo](/dias/dia18.md) - [Sumário](../README.md)
