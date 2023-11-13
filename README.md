@@ -22,7 +22,7 @@ Aqui, vou registrar minhas anotações relevantes ao [curso.dev](https://curso.d
 16. [Fundamentos: API, Endpoint, Requests e Responses (Dia 16)](/dias/dia16.md)
 17. [Fundamentos: Database, Docker e Containers (Dia 17)](/dias/dia17.md)
 
-## Disclaimers
+## ⚠️ Disclaimers
 Outro repositório meu que possui uma finalidade semelhante é o [Hanani's Guide to Front-end](https://github.com/hananitallyson/guide-to-front-end), onde eu reúno links de sites, artigos e vídeos sobre assuntos relacionados ao desenvolvimento Front-end.
 
 Por fim, quero deixar claro que esse repositório não é a mesma coisa que o curso em si, então, se você gostou do que está aqui, tente dar uma chance ao [curso.dev](https://curso.dev/) se tiver condições, pois eu garanto que todos os espaços vazios do seu conhecimento serão preenchidos, e você alcançará a senioridade uma hora ou outra.
