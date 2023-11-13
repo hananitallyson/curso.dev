@@ -42,3 +42,7 @@ No geral, a **ORM** vem para facilitar o trabalho no desenvolvimento, no entanto
 De forma simplificada, uma **Migration** ou em português "Migração", é um arquivo que instrui e serve como forma de gerenciar as mudanças na estrutura do banco de dados de uma aplicação. Permitindo diversas alterações relacionadas as tabelas, índices e dentre outros elementos.
 
 É com as **migrations** que se torna possível "versionar" o seu banco de dados, uma vez que esses arquivos podem ser enviados através de git para um repositório. Elas também servem para garantir que as mudanças da estrutura do banco dentro da **homologação** são as mesmas dentro da **produção**.
+
+---
+
+- [Anterior](/dias/dia16.md) - [Próximo](/dias/dia18.md) - [Sumário](../README.md)
