@@ -47,7 +47,7 @@ De forma simplificada, uma **Migration** ou em português "Migração", é um ar
 - [Migrations - Kenzie](https://kenzie.com.br/blog/migrations/)
 
 ## Docker e Containers
-Agora, vamos falar um pouco sobre **infraestrutura**. Quando falamos sobre **infraestrutura**, estamos nos referindo aos componentes necessários para executar e gerenciar ambientes, que nesse caso, é um ambiente de desenvolvimento e produção de uma aplicação. Isso envolve sistema, hardware, patches de seguranças, softwares, dentre outras coisas.
+Agora, vamos falar um pouco sobre **infraestrutura**. Quando falamos sobre **infraestrutura**, estamos nos referindo aos componentes necessários para executar e gerenciar ambientes, que nesse caso, é um ambiente de desenvolvimento e produção de uma aplicação. Isso envolve sistema operacional, hardware, patches de seguranças, softwares, dentre outras coisas.
 
 Antigamente, para gerenciar serviços da infraestrutura, como o próprio banco de dados, eram utilizados **Virtual Machines (VM)** (_Máquinas Virtuais_), pois dessa forma é possível "igualar" máquinas **hosts** que hospedavam o serviço. Uma vez que essas **VMs** permitiam que, mesmo sendo manualmente, a gente configurasse uma nova máquina dentro da nossa própria máquina, diminuindo a inconsistência da infraestrutura.
 
