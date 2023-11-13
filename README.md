@@ -2,7 +2,7 @@
 
 Aqui, vou registrar minhas anotações relevantes ao [curso.dev](https://curso.dev/) como uma maneira de manter esse conhecimento anotado e disponível, servindo como uma motivação para eu pesquisar sobre os assuntos ministrados nas aulas e ir mais além!
 
-## Sumário
+## 📝 Sumário
 
 1. [Apresentação do curso (Dia 1)](/dias/dia01.md)
 2. [Introdução (Dia 2)](/dias/dia02.md)
