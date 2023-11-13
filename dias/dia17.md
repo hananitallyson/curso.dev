@@ -53,7 +53,7 @@ Antigamente, para gerenciar serviços da infraestrutura, como o próprio banco d
 
 Mas só usar um virtualizador não era o suficiente, seja por causa da escala da equipe de desenvolvimento, ou pelo custo de memória e processamento que envolvia virtualizar um novo sistema completo dentro de outro sistema, que nesse caso é o da máquina em si. Além disso, era preciso ter uma nova máquina virtual para cada camada da aplicação, como um para o serviço de e-mail, um para o banco de dados, e outros. No entanto, em 2013, Solomon Hykes criou o **Docker** em cima dos recursos Linux: **PID Namespaces** e **cgroups**.
 
-O **PID Namespaces** é um identificador usado pelo sistema para rastrear uma tarefa específica em um computador. Através disso, o **Docker** executa cópias idênticas de um software mesmo se tais softwares não foram escritos para ter mais de uma cópia aberta ao mesmo tempo, isolando o PID para que ele não fique ciente do que está acontecendo fora de seus próprios processos.
+O **PID Namespaces** é um identificador usado pelo sistema para rastrear uma tarefa específica em um computador. Através disso, o **Docker** executa cópias idênticas de um software mesmo se tais softwares não foram escritos para ter mais de uma cópia aberta ao mesmo tempo, isolando o PID para que ele não fique ciente do que está acontecendo fora de seus próprios processos, como se houvesse uma membrana ao seu redor.
 
 Enquanto o **Control Groups**, conhecido também só por **cgroups**, serve para o **Docker** limitar, contabilizar e isolar o uso de recursos de uma máquina para um grupo de processos.
 
