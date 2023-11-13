@@ -57,7 +57,7 @@ O **PID Namespaces** é um identificador usado pelo sistema para rastrear uma ta
 
 Enquanto o **Control Groups**, conhecido também só por **cgroups**, serve para o **Docker** limitar, contabilizar e isolar o uso de recursos de uma máquina para um grupo de processos.
 
-E é assim que surge a ideia de **Container**, que nada mais é do que um ambiente isolado, disposto em um servidor. Então quando temos vários serviços, podemos sepoará-los em **containers**, e todos eles vão dividir uma única máquina host.
+E é assim que surge a ideia de **Container**, que nada mais é do que um ambiente **isolado**, disposto em um servidor. Então quando temos vários serviços, podemos sepoará-los em **containers**, e todos eles vão dividir uma única máquina host.
 
 ---
 
