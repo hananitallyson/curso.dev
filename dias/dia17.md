@@ -1,5 +1,5 @@
-# Fundamentos: Database, Containers e Docker (Dia 17)
-Nesse dia 17, nós vamos falar sobre assuntos mais do que fundamentais, são assuntos primordiais! O Filipe traz nesse dia, os seguintes temas: Introdução a **Database**, Como **Containers** funcionam, e **Docker**. Vamos começar com o assunto principal: **Database** ou "Banco de Dados". 
+# Fundamentos: Database, Docker e Containers (Dia 17)
+Nesse dia 17, nós vamos falar sobre assuntos mais do que fundamentais, são assuntos primordiais! O Filipe traz nesse dia, os seguintes temas: Introdução a **Database**, **Docker** e como **Containers** funcionam. Vamos começar com o assunto principal: **Database** ou "Banco de Dados". 
 
 ## Database
 Primeiramente, o que é uma **database** ou **banco de dados**? Em resumo, um **banco de dados** é uma coleção estruturada de dados, como por exemplo, um caderno com as informações dos clientes de uma loja. Nesse exemplo, os dados são armazenados em papéis e escritos por caneta ou lápis. Em nosso contexto de desenvolvimento, os dados são armazenados de forma eletrônica dentro de um computador, no entanto, a ideia continua a mesma do caderno: armazenar dados sobre coisas.
@@ -13,7 +13,7 @@ E para estudar ainda mais os conteúdos de database e modelagem, veja os links a
 - [O que é modelagem de dados? - Amazon](https://aws.amazon.com/pt/what-is/data-modeling/)
 
 ### Data Base Management System (DBMS)
-**Data Base Management System** ou "Sistema de Gerenciamento de Banco de Dados (SGBD)" é um sistema que será utilizado para gerenciar um ou mais bancos de dados e define como os dados serão armazenados. Existem diversos **SGBD**s, como:  Oracle, SQL Server, DB2, PostgreSQL, MySQL, e outros. No fim, o objetivo de todos é o mesmo: retirar da aplicação a responsabilidade de gerenciar e manipular o banco de dados. 
+**Data Base Management System** ou "Sistema de Gerenciamento de Banco de Dados (SGBD)" é um sistema que será utilizado para gerenciar um ou mais bancos de dados e define como os dados serão armazenados. Existem diversos **SGBDs**, como:  Oracle, SQL Server, DB2, PostgreSQL, MySQL, e outros. No fim, o objetivo de todos é o mesmo: retirar da aplicação a responsabilidade de gerenciar e manipular o banco de dados. 
 
 Muitas vezes dentro da nossa área quando falamos em banco de dados, queremos na realidade nos referir a um **SGBD**. Quando, por exemplo, falamos: "Vamos usar o PostgreSQL como nosso banco de dados". Estamos na realidade dizendo que vamos usar o gerenciador de banco de dados PostgreSQL.
 
@@ -46,8 +46,18 @@ De forma simplificada, uma **Migration** ou em português "Migração", é um ar
 
 - [Migrations - Kenzie](https://kenzie.com.br/blog/migrations/)
 
-## Containers e Docker
+## Docker e Containers
+Agora, vamos falar um pouco sobre **infraestrutura**. Quando falamos sobre **infraestrutura**, estamos nos referindo aos componentes necessários para executar e gerenciar ambientes, que nesse caso, é um ambiente de desenvolvimento e produção de uma aplicação. Isso envolve sistema, hardware, patches de seguranças, softwares, dentre outras coisas.
 
+Antigamente, para gerenciar serviços da infraestrutura, como o próprio banco de dados, eram utilizados **Virtual Machines (VM)** (_Máquinas Virtuais_), pois dessa forma é possível "igualar" máquinas **hosts** que hospedavam o serviço. Uma vez que essas **VMs** permitiam que, mesmo sendo manualmente, a gente configurasse uma nova máquina dentro da nossa própria máquina, diminuindo a inconsistência da infraestrutura.
+
+Mas só usar um virtualizador não era o suficiente, seja por causa da escala da equipe de desenvolvimento, ou pelo custo de memória e processamento que envolvia virtualizar um novo sistema completo dentro de outro sistema, que nesse caso é o da máquina em si. Além disso, era preciso ter uma nova máquina virtual para cada camada da aplicação, como o serviço de e-mail, banco de dados, e outros. No entanto, em 2013, Solomon Hykes criou o **Docker** em cima dos recursos Linux: **PID Namespaces** e **cgroups**.
+
+O **PID Namespaces** é um identificador usado pelo sistema para rastrear uma tarefa específica em um computador. Através disso, o **Docker** executa cópias idênticas de um software mesmo se tais softwares não foram escritos para ter mais de uma cópia aberta ao mesmo tempo, isolando o PID para que ele não fique ciente do que está acontecendo fora de seus próprios processos.
+
+Enquanto o **Control Groups**, conhecido também só por **cgroups**, serve para o **Docker** limitar, contabilizar e isolar o uso de recursos de uma máquina para um grupo de processos.
+
+E é assim que surge a ideia de **Container**, que nada mais é do que um ambiente isolado, disposto em um servidor. Então quando temos vários serviços, podemos sepoará-los em **containers**, e todos eles vão dividir uma única máquina host.
 
 ---
 
