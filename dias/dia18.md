@@ -29,7 +29,7 @@ export default {
 };
 ```
 
-Primeiramente, vamos observar que é importamos a classe **Client** do módulo **pg** para depois instanciá-la como a constante `client`. Fazemos isso dentro da função assincrona `query()`, que recebe como parâmetro o valor `queryObject`. Essa função é assincrona devido o uso do operador **await** que espera pela **promise** para obter seu valor, e nesse caso esperamos pela conexão do cliente e pela finalização da conexão.
+Primeiramente, vamos observar que importamos a classe **Client** do módulo **pg** para depois instanciá-la como a constante `client`. Fazemos isso dentro da função assincrona `query()`, que recebe como parâmetro o valor `queryObject`. Essa função é assincrona devido o uso do operador **await** que espera pela **promise** para obter seu valor, e nesse caso esperamos pela conexão do cliente e pela finalização da conexão.
 
 Dentro da instância de `client`, definimos os valores do banco de dados através das **variáveis de ambiente**: `host`, `port`, `user`, `database` e `password`.
 
