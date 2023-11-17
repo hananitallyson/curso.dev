@@ -50,3 +50,7 @@ No terminal, é possível ler o valor armazenado em uma variável através do co
 echo $LANG
 # en_US.UTF-8
 ```
+
+---
+
+- [Anterior](/dias/dia17.md) - [Próximo](/dias/dia19.md) - [Sumário](../README.md)
