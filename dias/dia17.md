@@ -39,6 +39,8 @@ Isso então será transformado em uma **query** de verdade e será executada con
 
 No geral, a **ORM** vem para facilitar o trabalho no desenvolvimento, no entanto, não é algo obrigatório e tem os seus prós e contras, como ser mais fácil de fazer implementações, mas quando queremos fazer uma consulta mais complexa pode ser mais dificil.
 
+Dentro do curso.dev escolhemos não usar nenhuma ORM para realizar as **queries**, ao invés disso preferimos escrever as consultas na mão. Para realizar a conexão com o banco, usamo o modulo [pg](https://www.npmjs.com/package/pg?activeTab=readme) que é um cliente PostgreSQL sem bloqueio para Node.js.
+
 ### Migrations
 De forma simplificada, uma **Migration** ou em português "Migração", é um arquivo que instrui e serve como forma de gerenciar as mudanças na estrutura do banco de dados de uma aplicação. Permitindo diversas alterações relacionadas as tabelas, índices e dentre outros elementos.
 
