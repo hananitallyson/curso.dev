@@ -3,6 +3,36 @@ O dia 18 tem como foco a conclusão da tarefa `Criar módulo "database.js"`, e n
 
 No [dia anterior](/dias/dia17.md), decidimos utilizar o serviço PostgreSQL como nosso banco de dados. E para se comunicar com ele, instalamos o módulo [pg](https://www.npmjs.com/package/pg?activeTab=readme) no nosso projeto, pois ele sabe se comunicar no mesmo protocolo que o banco. Então nós utilizamos o **pg** para abrir uma conexão ao banco de dados e enviar uma query contra ele. E para retirar a necessidade de abrir uma conexão e fechar a mesma sempre que for enviar uma query, criamos a abstração `database.js`, onde basta executar o método `database.query()` definido nesse objeto para executar a consulta.
 
+O [Node-postgres](https://node-postgres.com/) é uma coleção de módulos node.js para servir como interface para o banco de dados PostgreSQL, e vamos nos utilizar dessa abstração para realizar a conexão dentro da nossa própria abstração `database.js`.
+
+```js
+// database.js
+
+import { Client } from "pg";
+
+async function query(queryObject) {
+  const client = new Client({
+    host: process.env.POSTGRES_HOST,
+    port: process.env.POSTGRES_PORT,
+    user: process.env.POSTGRES_USER,
+    database: process.env.POSTGRES_DB,
+    password: process.env.POSTGRES_PASSWORD,
+  });
+  await client.connect();
+  const result = await client.query(queryObject);
+  await client.end();
+  return result;
+}
+
+export default {
+  query: query,
+};
+```
+
+Primeiramente, vamos observar que é importamos a classe **Client** do módulo **pg** para depois instanciá-la como a constante `client`. Fazemos isso dentro da função assincrona `query()`, que recebe como parâmetro o valor `queryObject`. Essa função é assincrona devido o uso do operador **await** que espera pela **promise** para obter seu valor, e nesse caso esperamos pela conexão do cliente e pela finalização da conexão.
+
+Dentro da instância de `client`, definimos os valores do banco de dados através das **variáveis de ambiente**: `host`, `port`, `user`, `database` e `password`.
+
 # Variáveis de Ambiente
 As **Environment Variables** ou **Variáveis de Ambiente**, são valores definidos pelo usuário do serviço que podem afetar a maneira como um processo em execução irá se comportar. Cada processo pode ler e escrever variáveis de ambiente. As variáveis podem ser usadas tanto por scripts quanto pela linha de comando.
 
