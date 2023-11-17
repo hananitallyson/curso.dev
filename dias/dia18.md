@@ -1,6 +1,8 @@
 # Node-Postgres e Variáveis de Ambiente (Dia 18)
 O dia 18 tem como foco a conclusão da tarefa `Criar módulo "database.js"`, e no caminho disso, vamos aprender sobre **Variáveis de Ambiente**, cujo o termo em inglês é **Environment Variable**.
 
+No [dia anterior](/dias/dia17.md), decidimos utilizar o serviço PostgreSQL como nosso banco de dados. E para se comunicar com ele, instalamos o módulo [pg](https://www.npmjs.com/package/pg?activeTab=readme) no nosso projeto, pois ele sabe se comunicar no mesmo protocolo que o banco. Então nós utilizamos o **pg** para abrir uma conexão ao banco de dados e enviar uma query contra ele. E para retirar a necessidade de abrir uma conexão e fechar a mesma sempre que for enviar uma query, criamos a abstração `database.js`, onde basta executar o método `database.query()` definido nesse objeto para executar a consulta.
+
 # Variáveis de Ambiente
 As **Environment Variables** ou **Variáveis de Ambiente**, são valores definidos pelo usuário do serviço que podem afetar a maneira como um processo em execução irá se comportar. Cada processo pode ler e escrever variáveis de ambiente. As variáveis podem ser usadas tanto por scripts quanto pela linha de comando.
 
