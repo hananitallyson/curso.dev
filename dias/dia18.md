@@ -40,7 +40,7 @@ Tais variáveis são parte do ambiente no qual um processo executa. Por exemplo,
 
 No caso da imagem docker do serviço do PostgreSQL, a única variável obrigatória, ou seja, que precisa ser definida pelo usuário de fato, é a `POSTGRES_PASSWORD`, usada para definir a senha do usuário que acessará o serviço. A `POSTGRES_USER` caso não seja especificada, define por padrão o valor como `postgres` para o nome do usuário. A variável `POSTGRES_DB` usada para definir o nome do banco de dados, se não definida, terá como valor o que estiver definido em `POSTGRES_USER`.
 
-Em Unix, existe algumas variáveis em comum, algumas delas são:
+Em Unix, existe algumas variáveis bem comuns, algumas delas são:
 - $PATH - lista de diretórios que são acessados durante uma busca do shell, por exemplo, para comandos globais do sistema (executáveis fora da pasta corrente).
 - $HOME - diretório raiz do usuário atual.
 - $LANG - locale padrão.
