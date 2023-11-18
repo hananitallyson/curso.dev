@@ -3,7 +3,7 @@ O dia 18 tem como foco a conclusão da tarefa `Criar módulo "database.js"`, e n
 
 No [dia anterior](/dias/dia17.md), decidimos utilizar o serviço PostgreSQL como nosso banco de dados. E para se comunicar com ele, instalamos o módulo [pg](https://www.npmjs.com/package/pg?activeTab=readme) no nosso projeto, pois ele sabe se comunicar no mesmo protocolo que o banco. Então nós utilizamos o **pg** para abrir uma conexão ao banco de dados e enviar uma query contra ele. E para retirar a necessidade de abrir uma conexão e fechar a mesma sempre que for enviar uma query, criamos a abstração `database.js`, onde basta executar o método `database.query()` definido nesse objeto para executar a consulta.
 
-O [Node-postgres](https://node-postgres.com/) é uma coleção de módulos node.js para servir como interface para o banco de dados PostgreSQL, e vamos nos utilizar dessa abstração para realizar a conexão dentro da nossa própria abstração `database.js`.
+O [Node-postgres](https://node-postgres.com/) é uma coleção de módulos node.js que serve como interface para o banco de dados PostgreSQL, e vamos nos utilizar dessa abstração para realizar a conexão dentro da nossa própria abstração `database.js`.
 
 ```js
 // database.js
