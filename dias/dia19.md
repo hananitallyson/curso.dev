@@ -1,4 +1,4 @@
-# Absolute Imports, Services Scripts e ENV
+# Absolute Imports, Services Scripts, ENV e Credentials
 ## Absolute Imports
 
 
@@ -36,6 +36,11 @@ Enquanto na documentação do [Next.js](https://nextjs.org/docs/pages/building-y
 Ou seja, seguindo a documentação oficial do DotENV, não é recomendado fazer o commit do arquivo `.env`, no entanto para a documentação do Next.js, o indicado é exatamente fazer o commit de tal arquivo pois ele define os valores padrão.
 
 O Next.js faz tal recomendação, pois você pode definir os valores padrões para cada tipo de ambiente através do nome do seu arquivo: `.env` para todos os ambientes, e `.env.development` para o ambiente de desenvolvimento. Lembrando que de acordo com o ambiente, um tem precedência sobre o outro, como o `.env.development` que em ambiente de desenvolvimento, sobrepõem o `.env`. Do mesmo jeito, se você injetar valores direto no `process.env`, tais valores teram precedência sobre qualquer outro. E isso é exatamente o que a Vercel faz pelo painel de Enviroment Variables.
+
+## Credentials
+**Credentials**, ou "credenciais", são informações utilizadas para permitir o acesso a serviços ou locais específicos, uma senha, por exemplo, é uma credencial. O nome de um banco de dados também pode ser classificado como uma credencial. Por serem dados delicados, tais informações não devem ser vazadas por questão de segurança. No entanto, muitas vezes precisamos informar a senha do banco de dados para se conectar ao mesmo, e como vimos no tópico anterior, colocamos essas credenciais no arquivo de ambiente. Dessa forma, se fizermos o commit desse arquivo, nossas credenciais podem ser vistas por qualquer um que acesse o repositório.
+
+É por causa disso que devemos tomar atenção em relação as credenciais do nosso projeto. Não colocar as informações reais no ``.env.development`, apenas as credenciais locais. No entanto, se as informmações forem vazadas no repositório, ainda tem maneiras de resolver isso.
 
 ---
 
