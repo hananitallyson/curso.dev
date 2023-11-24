@@ -40,7 +40,7 @@ O Next.js faz tal recomendação, pois você pode definir os valores padrões pa
 ## Credentials
 **Credentials**, ou "credenciais", são informações utilizadas para permitir o acesso a serviços ou locais específicos, uma senha, por exemplo, é uma credencial. O nome de um banco de dados também pode ser classificado como uma credencial. Por serem dados delicados, tais informações não devem ser vazadas por questão de segurança. No entanto, muitas vezes precisamos informar a senha do banco de dados para se conectar ao mesmo, e como vimos no tópico anterior, colocamos essas credenciais no arquivo de ambiente. Dessa forma, se fizermos o commit desse arquivo, nossas credenciais podem ser vistas por qualquer um que acesse o repositório.
 
-É por causa disso que devemos tomar atenção em relação as credenciais do nosso projeto. Não colocar as informações reais no ``.env.development`, apenas as credenciais locais. No entanto, se as informmações forem vazadas no repositório, ainda tem maneiras de resolver isso.
+É por causa disso que devemos tomar atenção em relação as credenciais do nosso projeto. Não colocar as informações reais no `.env.development`, apenas as credenciais locais. No entanto, se as informmações forem vazadas no repositório, ainda tem maneiras de resolver isso.
 
 ---
 
