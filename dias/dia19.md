@@ -1,6 +1,42 @@
 # Absolute Imports, Services Scripts, ENV e Credentials
-## Absolute Imports
+O dia 19 foi cheio de configuração, mexemos com `jsconfig.json` para nossas importações, `package.json` para nossos scripts, e `.env` para armazenar nossas variáveis de ambiente.
 
+## Absolute Imports
+Tanto o **Absolute Imports**, quanto o **Relative Imports** são maneiras de importar componentes dentro do nosso código em um projeto. No entanto, o **Relative Imports**, se utiliza do caminho **relativo** do componente em relação ao código em que ele é importado, e por muitas vezes gera um emaranhado de `../` na importação. Por exemplo:
+```js
+import database from "../../../../infra/database.js";
+```
+O **Absolute Imports** por outro lado, se utiliza do caminho **absoluto** do projeto, tornando o código muito mais limpo e organizado. Por exemplo:
+```js
+import database from "infra/database.js";
+```
+### BaseURL
+Para configurarmos o **Absolute Imports** dentro do nosso projeto, vamos precisar criar um arquivo chamado `jsconfig.json` dentro do diretório raiz. A presença do arquivo de configuração `jsconfig.json` em um diretório indica que o mesmo é o diretório raiz do projeto JavaScript. Dentro desse arquivo, vamos definir a `baseUrl` do nosso projeto como `.`, indicando o caminho absoluto da raiz do projeto.
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}
+```
+
+### O que acontece se deixarmos o `/` no inicio do import?
+Nos comentários da aula sobre configuração do **baseUrl**, algumas pessoas apresentaram os comportamentos diferentes do seus códigos. A pessoa `marini` comentou:
+>O meu já estava funcionando com import database from "/infra/database.js"; mesmo sem o arquivo jsconfig.json. Única diferença do meu caminho pro caminho do vídeo é que o meu caminho começava com uma /. Tinha feito essa alteração >numa aula que o Filipe tinha perguntado...
+>Será que se remover esses "../../../" a aplicação vai quebrar?
+>aí eu testei e não quebrou, por isso eu acabei deixando assim, mas pelo que eu entendi no vídeo, não era esse o comportamento esperado. Será que não precisa mais do arquivo de config do javascript json?
+
+E o aluno `andrecruzmendes` respondeu trazendo as seguintes informações que irei parafrasear a seguir.
+
+Quando `/` não está presente no início do **imports**, o caminho será interpretado como **relativo**, levando em consideração o diretório do arquivo atual como ponto de partida. Porém, se o **imports** começar com `/` indicamos que o caminho é **absoluto**.
+```js
+import database from "/infra/database.js";
+```
+Dessa forma, como o Node.js resolve caminhos absolutos a partir da raiz do sistema de arquivos do sistema operacional teriamos um erro, porém o Next.js, quando executado pelo comando `npm run dev`, considera o diretório de trabalho no terminal como sendo o ponto de partida, e geralmente esse diretório é a raiz do projeto.
+
+Além disso, o Next.js assume a localização do arquivo `package.json` como sendo a raiz do projeto e utiliza esse caminho em absolute imports mesmo em ambiente de produção. Apesar de não haver documentação oficial sobre isso. Assim, o nosso código teoricamente funciona sem quebrar. 
+
+Mas, para garantir segurança, o ideal é manter o arquivo `jsconfig.json` com o `baseUrl`.
 
 ## Scripts
 Para acelerar a inicialização de serviços no nosso projeto, o Felipe nos ensinou a como criar scripts para isso. Abaixo estão os comandos relacionados aos nossos serviços, que por enquanto é somente o banco de dados.
