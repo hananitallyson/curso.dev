@@ -22,6 +22,7 @@ Aqui, vou registrar minhas anotações relevantes ao [curso.dev](https://curso.d
 16. [Fundamentos: API, Endpoint, Requests e Responses (Dia 16)](/dias/dia16.md)
 17. [Fundamentos: Database, Docker e Containers (Dia 17)](/dias/dia17.md)
 18. [Node-Postgres e Variáveis de Ambiente (Dia 18)](/dias/dia18.md)
+19. [Absolute Imports, Services Scripts, ENV e Credentials (Dia 19)](/dias/dia19.md)
 
 ## ⚠️ Disclaimers
 Quero deixar claro que esse repositório não é a mesma coisa que o curso em si, então, se você gostou do que está aqui, tente dar uma chance ao [curso.dev](https://curso.dev/) se tiver condições, pois eu garanto que todos os espaços vazios do seu conhecimento serão preenchidos, e você alcançará a senioridade uma hora ou outra.
