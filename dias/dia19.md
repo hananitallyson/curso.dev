@@ -1,4 +1,4 @@
-# Absolute Imports, Services Scripts, ENV e Credentials
+# Absolute Imports, Services Scripts, ENV e Credentials (Dia 19)
 O dia 19 foi cheio de configuração, mexemos com `jsconfig.json` para nossas importações, `package.json` para nossos scripts, e `.env` para armazenar nossas variáveis de ambiente.
 
 ## Absolute Imports
