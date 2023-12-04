@@ -18,7 +18,7 @@ Aqui, vou registrar minhas anotações relevantes ao [curso.dev](https://curso.d
 12. [Registro de Domínio e Configuração de DNS (Dia 12)](/dias/dia12.md)
 13. [Não Confie em Nenhum Serviço (Dia 13)](/dias/dia13.md)
 14. [Arquitetura de Software e Organização de Pastas (Dia 14)](/dias/dia14.md)
-15. [Testes Automatizados (Dia 15)](/dias/dia15.md)
+15. [Fundamentos: Testes Automatizados (Dia 15)](/dias/dia15.md)
 16. [Fundamentos: API, Endpoint, Requests e Responses (Dia 16)](/dias/dia16.md)
 17. [Fundamentos: Database, Docker e Containers (Dia 17)](/dias/dia17.md)
 18. [Node-Postgres e Variáveis de Ambiente (Dia 18)](/dias/dia18.md)
