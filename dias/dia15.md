@@ -1,4 +1,4 @@
-# Testes Automatizados (Dia 15)
+# Fundamentos: Testes Automatizados (Dia 15)
 Como já devem imaginar pelo título, o dia 15 é sobre **Testes**, ou para ser mais específico, **Testes Automatizados**. Dentro do mundo de desenvolvimento, os **testes automatizados** são uma ferramenta poderosa para manter a qualidade e funcionalidade do seu código. Mas, o que seriam esses **testes**?
 
 **Testes** são um cenário preparado em que colocamos uma parte, ou várias, do nosso código para rodar e verificar se estão ou não funcionando de forma desejada. Para construirmos um teste é preciso ter um **objetivo** em mente, esse objetivo seria o resultado que desejamos ao executar os testes. O benefício real dos testes está em **garantir** que o software ainda funciona, sem a necessidade de nós mesmos testarmos de forma manual, **acelerando** demais o nosso trabalho.
