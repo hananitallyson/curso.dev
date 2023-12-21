@@ -36,3 +36,8 @@ No [dia 14](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia14.md)
 Na visão do backend, o fluxo começa do **controller**, local onde entra a requisição do usuário, que nesse caso é um usuário pedindo as informações do endpoint `/status`. O **controller** se utiliza das ferramentas disponíveis no **model**. Sendo assim, o **controller** pede uma informação para o **model**, que por sua vez computa a informação ou executa alguma regra de negócio, e depois disso retorna a informação para o **controller**.
 
 Por fim, o **controller**, após receber a informação do **model**, retorna essa informação para a **view**, para que ela possa apresentar isso ao usuário interessado, que nesse caso seria retornar as informações em formato JSON no `/status`.
+
+### MVC sem Models
+Uma das perguntas mais frequentes em relação ao MVC, é sobre a necessidade de criar a abstração de models. Muitos pensam que vale mais a pena desenvolver tudo no controller.
+
+Bem, apesar de ainda ser funcional, isso não é a melhor abordagem. Sem os **models**, perdemos o que chamamos de **Reusability**, ou em português "Reutilizabilidade", que consiste na qualidade de reaproveitamento do nosso código. Sendo possível reutilizar uma mesma parte de código em locais distintos.
