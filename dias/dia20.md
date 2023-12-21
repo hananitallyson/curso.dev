@@ -1,5 +1,5 @@
 # Endpoint "/status", ISO, Database, Connections e SQL Injections (Dia 20)
-No [dia 16](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia16.md#endpoint) falamos sobre o que era Endpoint, dentre outras coisas que com certeza são úteis para esse dia 20. Aqui, vamos de fato implementar as coisas que queremos retornar quando acessamos o Endpoint `/status`.
+No [dia 16](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia16.md#endpoint) falamos sobre o que era Endpoint, dentre outras coisas que com certeza são úteis para esse dia 20. Aqui, vamos de fato implementar as coisas que queremos retornar quando acessamos o endpoint `/status`.
 
 ## Updated_at e ISO
 A primeira propriedade do objeto JSON que queremos retornar é a `updated_at`, cuja sua função é retornar o momento exato na qual os dados do objeto foram gerados lá no backend.
@@ -29,3 +29,10 @@ A segunda propriedade do objeto JSON, é a `dependencies`, que por sua vez é um
 ```
 
 Como é possível ver, as informações que vamos apresentar sobre nosso banco de dados são max_connections, opened_connections e version. Respectivamente, o máximo de conexões que a instância consegue suportar, o número de conexões abertas, e por fim, a versão do banco de dados.
+
+## Arquitetura MVC
+No [dia 14](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia14.md) foi mencionado a arquitetura de software **MVC**, que significa **Model**, **Views** e **Controller**. Essa foi a arquitetura escolhida para nosso projeto, e nesse caso, o fluxo funciona da seguinte maneira.
+
+Na visão do backend, o fluxo começa do **controller**, local onde entra a requisição do usuário, que nesse caso é um usuário pedindo as informações do endpoint `/status`. O **controller** se utiliza das ferramentas disponíveis no **model**. Sendo assim, o **controller** pede uma informação para o **model**, que por sua vez computa a informação ou executa alguma regra de negócio, e depois disso retornar a informação para o **controller**.
+
+Por fim, o **controller**, após receber a informação do **model**, retorna essa informação para a **view**, para que ela possa apresentar isso ao usuário interessado, que nesse caso seria retornar as informações em formato JSON no `/status`.
