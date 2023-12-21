@@ -1,4 +1,4 @@
-# Endpoint "/status", ISO, Database, Connections e SQL Injections (Dia 20)
+# Endpoint "/status", ISO, Database, MVC, Connections e SQL Injections (Dia 20)
 No [dia 16](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia16.md#endpoint) falamos sobre o que era Endpoint, dentre outras coisas que com certeza são úteis para esse dia 20. Aqui, vamos de fato implementar as coisas que queremos retornar quando acessamos o endpoint `/status`.
 
 ## Updated_at e ISO
