@@ -41,3 +41,5 @@ Por fim, o **controller**, após receber a informação do **model**, retorna es
 Uma das perguntas mais frequentes em relação ao MVC, é sobre a necessidade de criar a abstração de models. Muitos pensam que vale mais a pena desenvolver tudo no controller.
 
 Bem, apesar de ainda ser funcional, isso não é a melhor abordagem. Sem os **models**, perdemos o que chamamos de **Reusability**, ou em português "Reutilizabilidade", que consiste na qualidade de reaproveitamento do nosso código. Sendo possível reutilizar uma mesma parte de código em locais distintos.
+
+## SQL Injections
