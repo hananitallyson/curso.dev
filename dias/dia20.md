@@ -1,4 +1,4 @@
-# Endpoint "/status", ISO, Database, MVC, Connections e SQL Injections (Dia 20)
+# Endpoint "/status", Database, SQL Injections e mais (Dia 20)
 No [dia 16](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia16.md#endpoint) falamos sobre o que era Endpoint, dentre outras coisas que com certeza são úteis para esse dia 20. Aqui, vamos de fato implementar o que queremos retornar quando acessamos o endpoint `/status`, além de passar vários outros conteúdos que serão de grande importância para o nosso desenvolvimento. Então, se preparem, pois esse dia tem de tudo para ser o mais longo dos dias até agora.
 
 ## Updated_at e ISO
@@ -30,6 +30,10 @@ A segunda propriedade do objeto JSON, é a `dependencies`, que por sua vez é um
 
 Como é possível ver, as informações que vamos apresentar sobre nosso banco de dados são max_connections, opened_connections e version. Respectivamente, o máximo de conexões que a instância consegue suportar, o número de conexões abertas, e por fim, a versão do banco de dados.
 
+### Database Version
+
+### Connections
+
 ## Arquitetura MVC
 No [dia 14](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia14.md) foi mencionado a arquitetura de software **MVC**, que significa **Model**, **Views** e **Controller**. Essa foi a arquitetura escolhida para nosso projeto, e nesse caso, o fluxo funciona da seguinte maneira.
 
@@ -41,5 +45,12 @@ Por fim, o **controller**, após receber a informação do **model**, retorna es
 Uma das perguntas mais frequentes em relação ao MVC, é sobre a necessidade de criar a abstração de models. Muitos pensam que vale mais a pena desenvolver tudo no controller.
 
 Bem, apesar de ainda ser funcional, isso não é a melhor abordagem. Sem os **models**, perdemos o que chamamos de **Reusability**, ou em português "Reutilizabilidade", que consiste na qualidade de reaproveitamento do nosso código. Sendo possível reutilizar uma mesma parte de código em locais distintos.
+
+## Os 3 Estágios do TDD
+No [dia 15](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia15.md), falamos sobre a técnica de desenvolvimento chamada de **TDD**. Hoje, vamos detalhar os seus 3 estágios: **Red**, **Green** e **Refactor**.
+
+O primeiro estágio é o **Red**, que em inglês é a cor vermelha, e faz referência a cor que indica falha no teste. É nessa etapa que escrevemos um teste que espera algo que não é atendido. Naturalmente, o segundo estágio, **Green**, que em inglês é a cor verde, é quando fazemos a implementação concetra do nosso código que atende ao esperado pelo teste.
+
+Por fim, o último estágio é o **Refactor** ou "Refatoração". Esse estágio consiste no processo de melhorar o código da nossa implementação sem alterar o resultado final. Basicamente, o processo de **refatoração** é quando alteramos nosso código tornando-o mais semântico sem mudar em nada o resultado daquela implementação.
 
 ## SQL Injections
