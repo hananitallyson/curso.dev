@@ -1,5 +1,5 @@
 # Endpoint "/status", ISO, Database, MVC, Connections e SQL Injections (Dia 20)
-No [dia 16](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia16.md#endpoint) falamos sobre o que era Endpoint, dentre outras coisas que com certeza são úteis para esse dia 20. Aqui, vamos de fato implementar as coisas que queremos retornar quando acessamos o endpoint `/status`, além de passar vários outros conteúdos que serão de grande importância para o nosso desenvolvimento. Então, se preparem, pois esse dia tem de tudo para ser o mais longo dos dias até agora.
+No [dia 16](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia16.md#endpoint) falamos sobre o que era Endpoint, dentre outras coisas que com certeza são úteis para esse dia 20. Aqui, vamos de fato implementar o que queremos retornar quando acessamos o endpoint `/status`, além de passar vários outros conteúdos que serão de grande importância para o nosso desenvolvimento. Então, se preparem, pois esse dia tem de tudo para ser o mais longo dos dias até agora.
 
 ## Updated_at e ISO
 A primeira propriedade do objeto JSON que queremos retornar é a `updated_at`, cuja sua função é retornar o momento exato na qual os dados do objeto foram gerados lá no backend.
