@@ -31,8 +31,54 @@ A segunda propriedade do objeto JSON, é a `dependencies`, que por sua vez é um
 Como é possível ver, as informações que vamos apresentar sobre nosso banco de dados são max_connections, opened_connections e version. Respectivamente, o máximo de conexões que a instância consegue suportar, o número de conexões abertas, e por fim, a versão do banco de dados.
 
 ### Database Version
+Vamos começar pela versão do nosso banco de dados. Para fazer isso, precisamos acessar essa informação de alguma maneira. Como queremos algo relacionado ao banco de dados, podemos ter essa informação consultando o próprio banco de dados.
+
+Bem, já sabemos que temos que realizar uma query, uma consulta, ao nosso banco de dados, mas qual dos tipo principais de consulta vamos utilizar: **SELECT**, **UPDATE**, **DELETE** ou **SHOW**?
+
+**SELECT:** A query SELECT é usada para recuperar dados de uma ou mais tabelas em um banco de dados. Com ela, você pode especificar as colunas que deseja recuperar, condições para filtrar os resultados e até mesmo realizar operações em dados, como soma ou até mesmo contagem.
+```sql
+SELECT dado FROM tabela;
+```
+
+**UPDATE:** A query UPDATE é usada para modificar os dados existentes em uma tabela. Com ela, é possível atualizar os valores em uma ou mais colunas com base em condições especificadas.
+```sql
+UPDATE tabela SET dado = novo_dado WHERE dado = 'antigo_dado';
+```
+
+**DELETE:** A query DELETE é empregada para remover registros de uma tabela com base em determinadas condições. Tenha cuidado ao usá-la, pois ela exclui dados de forma permanente.
+```sql
+DELETE FROM tabela WHERE dado = 0;
+```
+
+**SHOW:** A query SHOW não é uma operação padrão de manipulação de dados. Em vez disso, ela é usada para exibir informações sobre o banco de dados, como tabelas, colunas, índices, entre outros.
+```sql
+SHOW TABLES;
+```
+
+Nesse caso, como queremos apenas exibir a informação da versão do nosso banco de dados, o mais indicado é o **SHOW**. E o código ficaria mais ou menos assim:
+```javascript
+const databaseVersion = (await database.query("SHOW server_version;")).rows[0].server_version;
+```
+Primeiro, executamos a query através da nossa abstração database e esperamos o resultado. Em seguida, acessamos o `rows[0]`, pois um banco de dados relacional sempre retorna uma lista mesmo se pedirmos uma única coisa, e de lá pegamos o `server_version` com a informação que queremos.
 
 ### Connections
+Agora, precisamos exibir a quantidade máxima de conexões do nosso banco de dados, e como eu usei a palavra "exibir", já sabemos que vamos usar o `SHOW` para acessar essa informação na nossa consulta ao banco. 
+```javascript
+const databaseMaxConnections = (await database.query("SHOW max_connections;")).rows[0].max_connections;
+```
+
+Por fim, vamos exibir a quantidade de conexões abertas. Nesse caso, nós vamos precisar acessar e recuperar esse dado de uma tabela, para isso vamos usar o `SELECT`.
+```javascript
+const databaseOpenedConnections = (
+  await database.query({
+    text: "SELECT count(*)::int FROM pg_stat_activity WHERE datname = $1;",
+    values: [databaseName],
+  })
+).rows[0].count;
+```
+Se você observar bem, esse código está bem diferente dos demais. Isso porque nosso código está protegido de **SQL Injections**, para saber mais sobre isso, veja em [SQL Injections](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia20.md#sql-injections).
+
+Explicando um pouco mais essa consulta... Basicamente, nós acessamos a tabela `pg_stat_activity` do nosso banco de dados, e em seguida fizemos a contagem em números inteiros da quantidade de conexões abertas. A separação entre `text` e `value` é basicamente uma funcionalidade do **node-postgres** chamada de [Parameterized Query](https://node-postgres.com/features/queries#parameterized-query), ou em português, "Consultas Parametrizadas".
 
 ## Arquitetura MVC
 No [dia 14](https://github.com/hananitallyson/curso.dev/blob/main/dias/dia14.md) foi mencionado a arquitetura de software **MVC**, que significa **Model**, **Views** e **Controller**. Essa foi a arquitetura escolhida para nosso projeto, e nesse caso, o fluxo funciona da seguinte maneira.
