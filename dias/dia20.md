@@ -100,3 +100,6 @@ O primeiro estágio é o **Red**, que em inglês é a cor vermelha, e faz refer�
 Por fim, o último estágio é o **Refactor** ou "Refatoração". Esse estágio consiste no processo de melhorar o código da nossa implementação sem alterar o resultado final. Basicamente, o processo de **refatoração** é quando alteramos nosso código tornando-o mais semântico sem mudar em nada o resultado daquela implementação.
 
 ## SQL Injections
+**SQL Injection**, ou "Injeção SQL", é uma vulnerabilidade que ocorre quando alguém insere um código SQL malicioso em uma consulta SQL. Isso pode acontecer quando as entradas de dados de um usuário não são devidamente validadas ou escapadas antes de serem incorporadas em instruções SQL. A pessoa que encontrou a vulnerabilidade pode explorar essa falha para manipular consultas SQL, podendo acessar, modificar ou até mesmo excluir dados, podendo excluir o próprio banco por completo!
+
+Para previnir uma **SQL Injection** é necessário sanitizar todas as entradas do usuário. 
